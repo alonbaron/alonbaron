@@ -26,9 +26,8 @@ I am a tech-agnostic problem solver. I focus on understanding the core logic of 
 
 ### 📈 GitHub Stats
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=alonbaron&show_icons=true&theme=radical" alt="Alon's GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=alonbaron&show_icons=true&theme=radical" alt="Alon's GitHub Stats" />
 </p>
-
 ---
 
 ### 📫 Connect with Me
