@@ -11,7 +11,7 @@ In the modern development landscape, syntax is cheap and AI handles the boilerpl
 I am a tech-agnostic problem solver. I focus on understanding the core logic of a system and picking the absolute best tool for the job, rather than tying myself to a single language.
 
 #### **Ecosystem & Tools:**
-* **Languages & Web:** Java, Python, JavaScript, CSS, SQL
+* **Languages & Web:** Java, Python, TypeScript, JavaScript, CSS, SQL
 * **Frontend & Backend:** React, Java Spring Boot
 * **AI & Workflows:** Claude, Codex, Agentic AI Workflows
 * **IDE Setup:** VS Code (fully customized with extensions) | Experienced with IntelliJ & WebStorm
