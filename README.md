@@ -1,16 +1,35 @@
-## Hi there 👋
+# Hi, I'm Alon Baron 👋
 
-<!--
-**alonbaron/alonbaron** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 💻 CS Student & Healthcare IT Developer
+I am a second-year Computer Science student currently working within a healthcare Information Systems team. I care deeply about how complex systems function under the hood, from enterprise hospital networks to modern full-stack applications.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ My Philosophy: Architecture > Syntax
+In the modern development landscape, syntax is cheap and AI handles the boilerplate. The real engineering happens in **careful system planning, data modeling, and robust architecture.** 
+
+I am a tech-agnostic problem solver. I focus on understanding the core logic of a system and picking the absolute best tool for the job, rather than tying myself to a single language.
+
+#### **Ecosystem & Tools:**
+* **Languages & Web:** Java, Python, JavaScript, CSS, SQL
+* **Frontend & Backend:** React, Java Spring Boot
+* **AI & Workflows:** Claude, Codex, Agentic AI Workflows
+* **IDE Setup:** VS Code (fully customized with extensions) | Experienced with IntelliJ & WebStorm
+
+---
+
+### 🚀 What I'm Currently Building
+* **AI-Driven Virtual Try-On (VTO) System:** Designing the architecture for a custom generative AI platform that handles image manipulation via APIs to seamlessly overlay jewelry onto user-uploaded photos.
+* **PawPals:** Building a full-stack social network for dog owners from scratch, focusing on clean database schema design and scalable backend routing.
+
+---
+
+### 📈 GitHub Stats
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=alonbaron&show_icons=true&theme=radical" alt="Alon's GitHub Stats" />
+</p>
+
+---
+
+### 📫 Connect with Me
+* **Email:** [alonbaron123@gmail.com](mailto:alonbaron123@gmail.com)
