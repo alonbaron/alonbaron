@@ -1,6 +1,6 @@
 # Hi, I'm Alon Baron 👋
 
-### 💻 CS Student & Healthcare IT Developer
+### 💻 CS Student & Healthcare IT Developer 
 I am a second-year Computer Science student currently working within a healthcare Information Systems team. I care deeply about how complex systems function under the hood, from enterprise hospital networks to modern full-stack applications.
 
 ---
