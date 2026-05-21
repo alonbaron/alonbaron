@@ -20,14 +20,15 @@ I am a tech-agnostic problem solver. I focus on understanding the core logic of 
 
 ### 🚀 What I'm Currently Building
 * **AI-Driven Virtual Try-On (VTO) System:** Designing the architecture for a custom generative AI platform that handles image manipulation via APIs to seamlessly overlay jewelry onto user-uploaded photos.
-* **PawPals:** Building a full-stack social network for dog owners from scratch, focusing on clean database schema design and scalable backend routing.
+* **PawPals:** Building and polishing a full-stack social network for dog owners, with React, Spring Boot, MySQL, JWT auth, image uploads, and playdates.
 
 ---
 
 ### 📈 GitHub Stats
 <p align="left">
-  <img src="https://github-stats-extended.vercel.app/api?username=alonbaron&show_icons=true&theme=radical" alt="Alon's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=alonbaron&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Alon's GitHub Stats" />
 </p>
+
 ---
 
 ### 📫 Connect with Me
