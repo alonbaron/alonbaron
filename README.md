@@ -1,38 +1,44 @@
-# Hi, I'm Alon Baron 👋
+# Hi, I'm Alon Baron
 
-### 💻 CS Student & Healthcare IT Developer 
-I am a second-year Computer Science student currently working within a healthcare Information Systems team. I care deeply about how complex systems function under the hood, from enterprise hospital networks to modern full-stack applications.
+I am a second-year Computer Science student and Healthcare IT developer. I work close to real operational systems, and I like projects where architecture, correctness, security, and maintainability matter more than just getting a demo to run.
 
----
+My current focus is turning student and personal projects into professional, readable repositories: clear setup instructions, documented architecture, reproducible builds, and practical fixes for real bugs.
 
-### 🛠️ My Philosophy: Architecture > Syntax
-In the modern development landscape, syntax is cheap and AI handles the boilerplate. The real engineering happens in **careful system planning, data modeling, and robust architecture.** 
+## Featured Projects
 
-I am a tech-agnostic problem solver. I focus on understanding the core logic of a system and picking the absolute best tool for the job, rather than tying myself to a single language.
+### [PawPals / dogsocial](https://github.com/alonbaron/dogsocial)
+Full-stack social network for dog owners built with React, Spring Boot, MySQL, JWT authentication, image uploads, follows, comments, reactions, password reset, and playdates.
 
-#### **Ecosystem & Tools:**
-* **Languages & Web:** Java, Python, TypeScript, JavaScript, CSS, SQL
-* **Frontend & Backend:** React, Java Spring Boot
-* **AI & Workflows:** Claude, Codex, Agentic AI Workflows
-* **IDE Setup:** VS Code (fully customized with extensions) | Experienced with IntelliJ & WebStorm
+Recent polish includes backend performance work, explicit Java build tooling, Maven wrapper support, and clearer project documentation.
 
----
+### [DiningPhilosophers](https://github.com/alonbaron/DiningPhilosophers)
+Java concurrency project focused on deadlock prevention, synchronization strategy, fairness, and readable architecture notes.
 
-### 🚀 What I'm Currently Building
-* **AI-Driven Virtual Try-On (VTO) System:** Designing the architecture for a custom generative AI platform that handles image manipulation via APIs to seamlessly overlay jewelry onto user-uploaded photos.
-* **PawPals:** Building and polishing a full-stack social network for dog owners, with React, Spring Boot, MySQL, JWT auth, image uploads, and playdates.
+### [IDChecker_WordleGame](https://github.com/alonbaron/IDChecker_WordleGame)
+Java project combining Israeli ID validation with a Wordle-style game flow. This repo is part of my "revisit old coursework with better engineering judgment" track.
 
----
+### [Connect4](https://github.com/alonbaron/connect4)
+React + Vite browser game with configurable board dimensions, custom colors, local two-player mode, a simple computer opponent, timers, undo, and animated pieces.
 
-### 📈 GitHub Snapshot
-<p align="left">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alonbaron&theme=radical" alt="Alon's GitHub contribution summary" />
-</p>
-<p align="left">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=alonbaron&theme=radical" alt="Alon's GitHub stats summary" />
-</p>
+### [MortalMadmachGame](https://github.com/alonbaron/MortalMadmachGame)
+Java Swing arena fighting game with custom art, sound effects, character selection, AI opponent behavior, potions, special attacks, and round scoring.
 
----
+## Technical Range
 
-### 📫 Connect with Me
-* **Email:** [alonbaron123@gmail.com](mailto:alonbaron123@gmail.com)
+- Languages: Java, Python, TypeScript, JavaScript, SQL, CSS
+- Backend: Spring Boot, REST APIs, JWT auth, MySQL, JPA/Hibernate
+- Frontend: React, Vite, responsive UI work
+- Tooling: Maven, Docker, Git, GitHub, IntelliJ, WebStorm, VS Code
+- Working style: architecture-first planning, code review, security cleanup, build verification, documentation polish
+
+## What I Care About
+
+- Reproducible projects that another developer can run
+- Clear README files and architecture notes
+- Secure configuration with no committed secrets
+- Fixes that explain what was broken and why the change matters
+- Practical software quality over cosmetic polish
+
+## Contact
+
+Email: [alonbaron123@gmail.com](mailto:alonbaron123@gmail.com)
