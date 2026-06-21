@@ -1,0 +1,52 @@
+<svg width="445" height="260" viewBox="0 0 445 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PawPals</title>
+  <desc id="desc">A production full-stack social network for dog owners.</desc>
+  <defs>
+    <linearGradient id="bg" x1="20" y1="10" x2="425" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111422"/>
+      <stop offset="1" stop-color="#21172A"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#A78BFA" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .heart { animation: beat 2.6s ease-in-out infinite; transform-origin:347px 189px; }
+      @keyframes beat { 0%,100% { transform:scale(1) } 12% { transform:scale(1.14) } 24% { transform:scale(1) } }
+      @media (prefers-reduced-motion: reduce) { .heart { animation:none } }
+    </style>
+  </defs>
+  <rect x="4" y="4" width="437" height="252" rx="20" fill="url(#bg)"/>
+  <circle cx="395" cy="20" r="125" fill="url(#glow)"/>
+  <rect x="4.75" y="4.75" width="435.5" height="250.5" rx="19.25" stroke="#A78BFA" stroke-opacity=".55" stroke-width="1.5"/>
+
+  <g class="sans">
+    <rect x="26" y="24" width="111" height="27" rx="13.5" fill="#0D2A2A" stroke="#34D399" stroke-opacity=".5"/>
+    <circle cx="42" cy="37.5" r="4" fill="#34D399"/>
+    <text x="54" y="42" font-size="11" font-weight="700" letter-spacing="1" fill="#6EE7B7">LIVE PRODUCT</text>
+    <text x="26" y="94" font-size="39" font-weight="800" letter-spacing=".2" fill="#F8FAFC">PawPals</text>
+    <text x="26" y="119" font-size="15" font-weight="600" fill="#C4B5FD">A social network for dog owners</text>
+    <text x="26" y="146" font-size="13" fill="#CBD5E1">Profiles · posts · follows · playdates</text>
+    <text x="26" y="166" font-size="13" fill="#94A3B8">Real auth, relational data, uploads, and rules.</text>
+  </g>
+
+  <!-- compact social graph -->
+  <g stroke="#A78BFA" stroke-opacity=".36">
+    <path d="M302 190L347 182L389 198"/>
+    <path d="M302 190L350 207L389 198"/>
+  </g>
+  <circle cx="302" cy="190" r="12" fill="#1F2937" stroke="#C4B5FD"/>
+  <circle cx="389" cy="198" r="12" fill="#1F2937" stroke="#C4B5FD"/>
+  <circle cx="350" cy="207" r="8" fill="#1F2937" stroke="#A78BFA"/>
+  <path class="heart" d="M347 196C339 190 329 181 329 171C329 161 341 157 347 166C353 157 365 161 365 171C365 181 355 190 347 196Z" fill="#F472B6"/>
+
+  <g class="mono" font-size="10.5">
+    <rect x="26" y="216" width="65" height="23" rx="6" fill="#211A32"/><text x="58.5" y="231" text-anchor="middle" fill="#C4B5FD">React</text>
+    <rect x="97" y="216" width="94" height="23" rx="6" fill="#211A32"/><text x="144" y="231" text-anchor="middle" fill="#C4B5FD">Spring Boot</text>
+    <rect x="197" y="216" width="61" height="23" rx="6" fill="#211A32"/><text x="227.5" y="231" text-anchor="middle" fill="#C4B5FD">MySQL</text>
+    <rect x="264" y="216" width="47" height="23" rx="6" fill="#211A32"/><text x="287.5" y="231" text-anchor="middle" fill="#C4B5FD">JWT</text>
+    <rect x="317" y="216" width="94" height="23" rx="6" fill="#211A32"/><text x="364" y="231" text-anchor="middle" fill="#C4B5FD">Railway/Vercel</text>
+  </g>
+</svg>

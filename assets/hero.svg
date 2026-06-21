@@ -1,0 +1,90 @@
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Alon Baron — systems-minded full-stack developer</title>
+  <desc id="desc">An animated system map connecting architecture, production software, healthcare IT, and computer science.</desc>
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="860" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.5" stop-color="#0B1728"/>
+      <stop offset="1" stop-color="#0A1320"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity=".75"/>
+      <stop offset=".48" stop-color="#334155" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity=".75"/>
+    </linearGradient>
+    <linearGradient id="name" x1="290" y1="0" x2="610" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2E8F0"/>
+      <stop offset=".52" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#BAE6FD"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow">
+      <stop stop-color="#38BDF8" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="amberGlow">
+      <stop stop-color="#F59E0B" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#94A3B8" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .edge { stroke-dasharray: 5 8; animation: flow 8s linear infinite; }
+      .pulse { animation: pulse 3.6s ease-in-out infinite; transform-origin: center; }
+      @keyframes flow { to { stroke-dashoffset: -52; } }
+      @keyframes pulse { 0%,100% { opacity:.45 } 50% { opacity:1 } }
+      @media (prefers-reduced-motion: reduce) { .edge,.pulse { animation:none } }
+    </style>
+  </defs>
+
+  <rect x="4" y="4" width="892" height="312" rx="24" fill="url(#bg)"/>
+  <rect x="4" y="4" width="892" height="312" rx="24" fill="url(#grid)"/>
+  <circle cx="112" cy="72" r="155" fill="url(#cyanGlow)"/>
+  <circle cx="810" cy="282" r="190" fill="url(#amberGlow)"/>
+  <rect x="4.75" y="4.75" width="890.5" height="310.5" rx="23.25" stroke="url(#border)" stroke-width="1.5"/>
+
+  <!-- network edges -->
+  <path class="edge" d="M186 86C265 88 288 124 342 145" stroke="#38BDF8" stroke-opacity=".42"/>
+  <path class="edge" d="M714 82C632 88 610 123 558 145" stroke="#F59E0B" stroke-opacity=".42"/>
+  <path class="edge" d="M178 244C263 238 292 203 344 179" stroke="#34D399" stroke-opacity=".35"/>
+  <path class="edge" d="M722 244C636 237 608 205 556 179" stroke="#A78BFA" stroke-opacity=".36"/>
+
+  <!-- peripheral nodes -->
+  <g class="sans">
+    <rect x="54" y="56" width="132" height="58" rx="14" fill="#0C1D30" stroke="#38BDF8" stroke-opacity=".48"/>
+    <circle class="pulse" cx="73" cy="75" r="4" fill="#38BDF8"/>
+    <text x="71" y="91" font-size="11" letter-spacing="1.2" fill="#7DD3FC">CONTEXT</text>
+    <text x="71" y="106" font-size="13" font-weight="650" fill="#E2E8F0">Healthcare IT</text>
+
+    <rect x="714" y="54" width="132" height="58" rx="14" fill="#1A1820" stroke="#F59E0B" stroke-opacity=".48"/>
+    <circle class="pulse" cx="733" cy="73" r="4" fill="#F59E0B" style="animation-delay:.7s"/>
+    <text x="731" y="89" font-size="11" letter-spacing="1.2" fill="#FBBF24">DISCIPLINE</text>
+    <text x="731" y="104" font-size="13" font-weight="650" fill="#E2E8F0">Computer Science</text>
+
+    <rect x="46" y="218" width="142" height="58" rx="14" fill="#0C201D" stroke="#34D399" stroke-opacity=".42"/>
+    <circle class="pulse" cx="65" cy="237" r="4" fill="#34D399" style="animation-delay:1.3s"/>
+    <text x="63" y="253" font-size="11" letter-spacing="1.2" fill="#6EE7B7">OUTPUT</text>
+    <text x="63" y="268" font-size="13" font-weight="650" fill="#E2E8F0">Live products</text>
+
+    <rect x="712" y="218" width="142" height="58" rx="14" fill="#17162A" stroke="#A78BFA" stroke-opacity=".46"/>
+    <circle class="pulse" cx="731" cy="237" r="4" fill="#A78BFA" style="animation-delay:2s"/>
+    <text x="729" y="253" font-size="11" letter-spacing="1.2" fill="#C4B5FD">FOCUS</text>
+    <text x="729" y="268" font-size="13" font-weight="650" fill="#E2E8F0">System design</text>
+  </g>
+
+  <!-- central identity node -->
+  <circle cx="450" cy="160" r="104" fill="#38BDF8" opacity=".06" filter="url(#softGlow)"/>
+  <rect x="309" y="91" width="282" height="138" rx="22" fill="#091524" stroke="#64748B" stroke-opacity=".46"/>
+  <rect x="323" y="105" width="8" height="8" rx="4" fill="#38BDF8"/>
+  <rect x="337" y="105" width="8" height="8" rx="4" fill="#34D399" opacity=".7"/>
+  <rect x="351" y="105" width="8" height="8" rx="4" fill="#F59E0B" opacity=".8"/>
+  <text x="450" y="154" text-anchor="middle" class="sans" font-size="38" font-weight="760" letter-spacing="-1.2" fill="url(#name)">Alon Baron</text>
+  <text x="450" y="181" text-anchor="middle" class="mono" font-size="13" letter-spacing="1.1" fill="#7DD3FC">SYSTEMS-MINDED FULL-STACK DEVELOPER</text>
+  <line x1="351" y1="197" x2="549" y2="197" stroke="#334155"/>
+  <text x="450" y="216" text-anchor="middle" class="sans" font-size="13" fill="#94A3B8">I design the system before I write the syntax.</text>
+</svg>
