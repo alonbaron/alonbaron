@@ -11,16 +11,19 @@
   </a>
 </p>
 
-## The bigger picture
+## About me
 
-I’m a second-year Computer Science student and a developer in a healthcare Information Systems team.
-I’m interested in what makes software dependable: the boundaries between components, the shape of the
-data, the rules enforced by the backend, and the decisions that keep a system understandable as it grows.
+Hi, I’m Alon—a second-year Computer Science student who enjoys turning ambitious ideas into dependable
+products. I work across frontend, backend, data, and deployment, but I’m most interested in the bigger
+picture: how the pieces fit together and which decisions will still make sense as a system grows.
 
-Syntax is a tool. **Architecture, trade-offs, and ownership of complexity are the real work.**
+I learn best by shipping. Numra, PawPals, and my other projects have taken me beyond demos into real
+authentication, infrastructure, failure handling, live users, and the wonderfully unglamorous details
+that make software reliable.
 
-That mindset carries across the systems I build—from enterprise healthcare environments to real-time
-products used by actual people.
+Alongside my studies, I work in a healthcare Information Systems team. It gives me a useful view of
+software operating inside a real organization, but the work I want this profile to highlight is what
+I design and build.
 
 ## Production work
 
