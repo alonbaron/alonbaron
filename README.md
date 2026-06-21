@@ -19,8 +19,7 @@
 ## ◢ Live in production
 
 <p align="center">
-  <a href="https://numra.co.il"><img src="./assets/numra-card.svg" alt="NUMRA — real-time classroom math racing" width="445"></a>
-  <a href="https://dogsocial.vercel.app"><img src="./assets/pawpals-card.svg" alt="PawPals — a social network for dog owners" width="445"></a>
+  <img src="./assets/products.svg" alt="NUMRA — real-time classroom math racing · PawPals — a social network for dog owners" width="910">
 </p>
 
 **[NUMRA](https://numra.co.il)** is a Hebrew-first platform where a teacher launches a live race and a classroom of students solves arithmetic from their own devices. I built it on a **server-authoritative game engine** — scoring, difficulty, power-ups, route decisions, catch-up logic, and final rankings all live on the backend, so the game stays fair no matter what a client sends.
