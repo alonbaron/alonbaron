@@ -1,0 +1,90 @@
+<svg width="445" height="275" viewBox="0 0 445 275" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">alon-skills — six Claude Code skills, one install</title>
+<desc id="d">An open-source card for alon-skills, a Claude Code plugin bundling six skills: architect, review-swarm, ask-the-council, prompt-generator, up-to-date and ponytail. MIT licensed.</desc>
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="445" y2="275" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0A0E1C"/><stop offset="1" stop-color="#0B1024"/>
+  </linearGradient>
+  <linearGradient id="nm2" x1="30" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#5EEAD4"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <radialGradient id="gl2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 30) scale(220 180)">
+    <stop stop-color="#818CF8" stop-opacity=".26"/><stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid2" width="26" height="26" patternUnits="userSpaceOnUse">
+    <path d="M26 0H0V26" fill="none" stroke="#283A5E" stroke-width=".6" stroke-opacity=".45"/>
+  </pattern>
+  <filter id="gw2" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.4"/></filter>
+  <clipPath id="card2"><rect x="6" y="6" width="433" height="263" rx="16"/></clipPath>
+  <style><![CDATA[
+    .mono{font-family:ui-monospace,'Cascadia Code','Segoe UI Mono',Consolas,monospace}
+    .sans{font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif}
+    .nmk{font-family:'Segoe UI',system-ui,Roboto,Arial,sans-serif;font-weight:800;font-size:44px;letter-spacing:.5px}
+    .dot{animation:p 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .ring{animation:r 1.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
+    .core{animation:cr 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .s1{animation:flow 2.6s ease-in-out infinite}
+    .s2{animation:flow 2.6s ease-in-out .4s infinite}
+    .s3{animation:flow 2.6s ease-in-out .8s infinite}
+    .s4{animation:flow 2.6s ease-in-out 1.2s infinite}
+    .s5{animation:flow 2.6s ease-in-out 1.6s infinite}
+    .s6{animation:flow 2.6s ease-in-out 2s infinite}
+    @keyframes p{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.7)}}
+    @keyframes r{0%{opacity:.5;transform:scale(.7)}75%,100%{opacity:0;transform:scale(2.8)}}
+    @keyframes cr{0%,100%{opacity:.85}50%{opacity:1}}
+    @keyframes flow{0%,100%{stroke-opacity:.18}50%{stroke-opacity:.85}}
+    @media (prefers-reduced-motion:reduce){.dot,.ring,.core,.s1,.s2,.s3,.s4,.s5,.s6{animation:none}.ring{opacity:0}}
+  ]]></style>
+</defs>
+
+<rect width="445" height="275" fill="url(#bg2)"/>
+<g clip-path="url(#card2)">
+  <rect width="445" height="275" fill="url(#grid2)"/>
+  <rect width="445" height="275" fill="url(#gl2)"/>
+</g>
+<rect x="6" y="6" width="433" height="263" rx="16" fill="none" stroke="#293A5C"/>
+<g stroke="#818CF8" stroke-width="1.6" fill="none" stroke-linecap="round">
+  <path d="M18 40V28a4 4 0 0 1 4-4h12"/>
+  <path d="M427 40V28a4 4 0 0 0-4-4h-12"/>
+  <path d="M18 235v12a4 4 0 0 0 4 4h12"/>
+  <path d="M427 235v12a4 4 0 0 0-4 4h-12"/>
+</g>
+
+<!-- top bar -->
+<g class="mono" font-size="11">
+  <circle class="ring" cx="32" cy="40" r="4" fill="#34D399"/>
+  <circle class="dot" cx="32" cy="40" r="4" fill="#34D399"/>
+  <text x="44" y="44" fill="#34D399" font-weight="bold" letter-spacing="1.5">OPEN SOURCE</text>
+  <text x="413" y="44" text-anchor="end" fill="#A5B4FC" letter-spacing="1">MIT</text>
+</g>
+
+<!-- name + copy -->
+<text x="32" y="64" class="mono" font-size="11" letter-spacing="3" fill="#818CF8">CLAUDE CODE · TOOLKIT</text>
+<text x="30" y="116" class="nmk" fill="url(#nm2)">alon-skills</text>
+<text x="32" y="140" class="sans" font-size="15" font-weight="600" fill="#DCE3F2">Six skills, one install</text>
+<text x="32" y="161" class="sans" font-size="12.5" fill="#8C97B8">architect · review · council · prompts</text>
+
+<!-- motif: one plugin core -> six skills -->
+<g>
+  <g stroke="#818CF8">
+    <path class="s1" d="M350 192 L350 150"/>
+    <path class="s2" d="M350 192 L385 171"/>
+    <path class="s3" d="M350 192 L385 213"/>
+    <path class="s4" d="M350 192 L350 234"/>
+    <path class="s5" d="M350 192 L315 213"/>
+    <path class="s6" d="M350 192 L315 171"/>
+  </g>
+  <circle cx="350" cy="150" r="6" fill="#0E1430" stroke="#5EEAD4" stroke-width="1.3"/>
+  <circle cx="385" cy="171" r="6" fill="#0E1430" stroke="#7DD3FC" stroke-width="1.3"/>
+  <circle cx="385" cy="213" r="6" fill="#0E1430" stroke="#60A5FA" stroke-width="1.3"/>
+  <circle cx="350" cy="234" r="6" fill="#0E1430" stroke="#818CF8" stroke-width="1.3"/>
+  <circle cx="315" cy="213" r="6" fill="#0E1430" stroke="#A78BFA" stroke-width="1.3"/>
+  <circle cx="315" cy="171" r="6" fill="#0E1430" stroke="#C4B5FD" stroke-width="1.3"/>
+  <circle class="core" cx="350" cy="192" r="12" fill="#0E1430" stroke="#818CF8" stroke-width="1.6"/>
+  <text x="350" y="197" text-anchor="middle" class="mono" font-size="14" fill="#C7D2FE" filter="url(#gw2)">/</text>
+  <text x="350" y="197" text-anchor="middle" class="mono" font-size="14" fill="#C7D2FE">/</text>
+</g>
+
+<!-- bottom meta -->
+<text x="32" y="244" class="mono" font-size="11" fill="#94A0C0">Claude Code<tspan fill="#39456B"> · </tspan>6 skills<tspan fill="#39456B"> · </tspan>one install<tspan fill="#39456B"> · </tspan>MIT</text>
+</svg>

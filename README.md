@@ -53,6 +53,17 @@
 
 ---
 
+## ◢ Open source — Claude Code skills
+
+<p align="center">
+  <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="62%" alt="alon-skills — six Claude Code skills, one install"></a>
+</p>
+
+**[alon-skills](https://github.com/alonbaron/claude-skills)** packages how I work into six installable [Claude Code](https://code.claude.com) skills: an **architect** that writes the design before the code, a parallel **review-swarm**, an **ask-the-council** decision panel, a strict **prompt-generator**, a repo **up-to-date** preflight, and **ponytail** for ruthless simplicity. One install, MIT-licensed. **[Install &amp; source →](https://github.com/alonbaron/claude-skills)**
+<br>`Claude Code` · `agentic development` · `MIT`
+
+---
+
 ## ◢ Other systems &amp; experiments
 
 | Project | What it explores |
