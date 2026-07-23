@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://numra.co.il"><img alt="NUMRA — live" src="https://img.shields.io/badge/NUMRA-live-22D3EE?style=flat-square&labelColor=0A0E18"></a>&nbsp;
   <a href="https://dogsocial.vercel.app"><img alt="PawPals — live" src="https://img.shields.io/badge/PawPals-live-E879F9?style=flat-square&labelColor=140A1B"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v2" src="https://img.shields.io/badge/alon--skills-v2-A78BFA?style=flat-square&labelColor=140A1B"></a>&nbsp;
   <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-818CF8?style=flat-square&labelColor=0A0E18&logo=github"></a>&nbsp;
   <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-34D399?style=flat-square&labelColor=0A0E18&logo=gmail&logoColor=white"></a>
 </p>
@@ -53,14 +54,20 @@
 
 ---
 
-## ◢ Open source — Claude Code skills
+## ◢ Open source
 
 <p align="center">
   <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="62%" alt="alon-skills — six Claude Code skills, one install"></a>
 </p>
 
-**[alon-skills](https://github.com/alonbaron/claude-skills)** packages how I work into six installable [Claude Code](https://code.claude.com) skills: an **architect** that writes the design before the code, a parallel **review-swarm**, an **ask-the-council** decision panel, a strict **prompt-generator**, a repo **up-to-date** preflight, and **ponytail** for ruthless simplicity. One install, MIT-licensed. **[Install &amp; source →](https://github.com/alonbaron/claude-skills)**
+**[alon-skills](https://github.com/alonbaron/claude-skills)** packages how I work into six installable [Claude Code](https://code.claude.com) skills: an **architect** that writes the design before the code, a parallel **review-swarm**, an **ask-the-council** decision panel, a strict **prompt-generator**, a repo **up-to-date** preflight, and **ponytail** for ruthless simplicity. **v2 made them proactive** — each skill fires on the *shape* of the task, not just its keywords, and knows when to stay out of the way. One install, MIT-licensed. **[Install &amp; source →](https://github.com/alonbaron/claude-skills)**
 <br>`Claude Code` · `agentic development` · `MIT`
+
+**[UnDrive](https://github.com/alonbaron/UnDrive)** removes OneDrive from a Windows PC in the order Microsoft doesn't: **secure every file first** — download cloud-only placeholders, move everything to local disk, re-point Desktop/Documents/Pictures — and only then uninstall, behind an explicit YES gate. One ~330-line stock-PowerShell script; no installer, no dependencies, safe to re-run.
+<br>`PowerShell` · `Windows` · `MIT`
+
+**[discord-music-bot](https://github.com/alonbaron/discord-music-bot)** is a self-hosted Discord music bot — YouTube streaming, slash commands, per-server queues, cut-in playback, auto-disconnect — plus a complete walkthrough for running it **24/7 free on Oracle Cloud**. Errors surface in Discord instead of failing silently.
+<br>`Python` · `discord.py` · `Oracle Cloud` · `MIT`
 
 ---
 
@@ -68,6 +75,7 @@
 
 | Project | What it explores |
 |---|---|
+| **Shift Manager** *(in design)* | Multi-tenant SaaS shift manager, docs-before-code: the full design system (source of truth → roadmap → phased tasks) lands before implementation — `Next.js` · `TypeScript` · `PostgreSQL + RLS` · `AWS`. |
 | **ALMAS / Virtual Try-On** | A high-end jewelry configurator + image-based virtual try-on workflow — `Next.js` · `TypeScript` · `Python` · `FastAPI`. |
 | **[Dining Philosophers](https://github.com/alonbaron/DiningPhilosophers)** | Concurrency visualizer using global lock ordering and `ReentrantLock` to kill deadlock and races. |
 | **[Mortal Madmach](https://github.com/alonbaron/MortalMadmachGame)** | A Java Swing arena game — AI behavior, combat state, custom art, audio, rounds, power-ups. |
@@ -80,10 +88,10 @@
 ## ◢ Toolkit
 
 <table>
-<tr><td><b>Languages</b></td><td><code>Java</code> <code>Python</code> <code>TypeScript</code> <code>JavaScript</code> <code>SQL</code></td></tr>
+<tr><td><b>Languages</b></td><td><code>Java</code> <code>Python</code> <code>TypeScript</code> <code>JavaScript</code> <code>SQL</code> <code>PowerShell</code></td></tr>
 <tr><td><b>Application</b></td><td><code>Spring Boot</code> <code>React</code> <code>REST</code> <code>JWT</code> <code>JPA / Hibernate</code></td></tr>
 <tr><td><b>Data &amp; delivery</b></td><td><code>PostgreSQL</code> <code>MySQL</code> <code>Docker</code> <code>AWS</code> <code>Railway</code> <code>Vercel</code></td></tr>
-<tr><td><b>Workflow</b></td><td><code>Git</code> <code>testing</code> <code>architecture docs</code> <code>agentic development</code></td></tr>
+<tr><td><b>Workflow</b></td><td><code>Git</code> <code>testing</code> <code>architecture docs</code> <code>Claude Code</code> <code>agentic development</code></td></tr>
 </table>
 
 ---
