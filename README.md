@@ -12,13 +12,14 @@
 
 <p align="center">
   <img alt="Role" src="https://img.shields.io/badge/CS-year_II-334A66?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Healthcare IT" src="https://img.shields.io/badge/Healthcare_IT-developer-0E7490?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Focus" src="https://img.shields.io/badge/focus-architecture_%3E_syntax-6D28D9?style=flat-square&labelColor=0F1E33">
+  <img alt="Barzilai Medical Center" src="https://img.shields.io/badge/Barzilai_Med_Center-student_team_lead-0E7490?style=flat-square&labelColor=0F1E33">&nbsp;
+  <img alt="Freelance" src="https://img.shields.io/badge/freelance-web_dev-6D28D9?style=flat-square&labelColor=0F1E33">&nbsp;
+  <img alt="Open to work" src="https://img.shields.io/badge/open_to-software_%26_systems_roles-059669?style=flat-square&labelColor=0F1E33">
 </p>
 
 <p align="center">
   <b>Second-year CS student building systems that survive real users.</b><br>
-  <sub><b>Two live products · freelance client work · a healthcare IT team.</b> I care less about which framework and more about how the pieces hold together when the load, the edge cases, and the deadlines arrive.</sub>
+  <sub><b>Two live products · freelance web development · student team lead at Barzilai Medical Center.</b> I care less about which framework and more about how the pieces hold together when the load, the edge cases, and the deadlines arrive.</sub>
 </p>
 
 ---
@@ -42,7 +43,17 @@
 **[PawPals](https://dogsocial.vercel.app)** is a full-stack social network — user and dog profiles, posts, follows, reactions, image uploads, and playdate scheduling. It handles authentication, relational modeling, ownership rules, pagination, the race conditions of concurrent writes, and real production error handling. **[Source →](https://github.com/alonbaron/dogsocial)**
 <br>`React` · `Spring Boot` · `MySQL` · `JWT` · `Railway` · `Vercel`
 
-> **[Gal Baron Insurance](https://www.galb-ins.co.il)** — a production Hebrew/RTL site for an independent agent: accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting. Source stays private — it's client work.
+---
+
+## ◢ Work
+
+**Barzilai Medical Center** — *Student Team Lead · IT, systems &amp; software*
+I lead the student team across a live hospital's technology stack — technical support, systems, and software. Built a **shift-scheduling automation** that turned a manual rostering chore into a repeatable system for the team — a small piece of software that quietly gives people their time back.
+<br>`automation` · `scheduling` · `systems` · `IT` · `healthcare`
+
+**Freelance — Web Development**
+I build and ship production sites for real clients end to end: design, build, deploy, hand over. Most recent — **[Gal Baron Insurance](https://www.galb-ins.co.il)**, a Hebrew/RTL site for an independent agent with accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting *(source private — client work)*.
+<br>`Vite` · `EmailJS` · `WhatsApp` · `AWS Amplify` · `SEO / RTL`
 
 ---
 
@@ -82,7 +93,7 @@
 | Project | What it explores |
 |---|---|
 | **Shift Manager** *(in design)* | Multi-tenant SaaS shift manager, docs-before-code: the full design system (source of truth → roadmap → phased tasks) lands before implementation — `Next.js` · `TypeScript` · `PostgreSQL + RLS` · `AWS`. |
-| **ALMAS / Virtual Try-On** | A high-end jewelry configurator + image-based virtual try-on workflow — `Next.js` · `TypeScript` · `Python` · `FastAPI`. |
+| **ALMAS / Virtual Try-On** *(in progress)* | A high-end jewelry configurator + image-based virtual try-on workflow, in active development — `Next.js` · `TypeScript` · `Python` · `FastAPI`. |
 | **[Dining Philosophers](https://github.com/alonbaron/DiningPhilosophers)** | Concurrency visualizer using global lock ordering and `ReentrantLock` to kill deadlock and races. |
 | **[Mortal Madmach](https://github.com/alonbaron/MortalMadmachGame)** | A Java Swing arena game — AI behavior, combat state, custom art, audio, rounds, power-ups. |
 | **[Telegram Survey Bot](https://github.com/alonbaron/TelegramApiSurveyBot)** | Java desktop app that builds Telegram surveys, collects inline-button votes, and charts results in Swing. |
@@ -103,6 +114,6 @@
 ---
 
 <p align="center">
-  <sub>Currently studying CS · building live products · working in a healthcare Information Systems team.</sub><br>
+  <sub>Studying CS · shipping live products · student team lead at Barzilai Medical Center · <b>open to software &amp; systems roles</b>.</sub><br>
   <b>Build the model. Define the rules. Then write the code.</b>
 </p>
