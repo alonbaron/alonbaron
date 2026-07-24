@@ -18,7 +18,7 @@
 
 <p align="center">
   <b>Second-year CS student building systems that survive real users.</b><br>
-  <sub>I care less about which framework and more about how the pieces hold together when the load, the edge cases, and the deadlines arrive.</sub>
+  <sub><b>Two live products · freelance client work · a healthcare IT team.</b> I care less about which framework and more about how the pieces hold together when the load, the edge cases, and the deadlines arrive.</sub>
 </p>
 
 ---
@@ -39,7 +39,7 @@
 **[NUMRA](https://numra.co.il)** is a Hebrew-first platform where a teacher launches a live race and a classroom of students solves arithmetic from their own devices. I built it on a **server-authoritative game engine** — scoring, difficulty, power-ups, route decisions, catch-up logic, and final rankings all live on the backend, so the game stays fair no matter what a client sends.
 <br>`React 19` · `Spring Boot 4` · `PostgreSQL` · `SSE` · `AWS EC2/RDS` · `Docker` · `Caddy`
 
-**[PawPals](https://dogsocial.vercel.app)** is a full-stack social network — user and dog profiles, posts, follows, reactions, image uploads, and playdate scheduling. It's where I got hands-on with authentication, relational modeling, ownership rules, pagination, race conditions, and real production error handling. **[Source →](https://github.com/alonbaron/dogsocial)**
+**[PawPals](https://dogsocial.vercel.app)** is a full-stack social network — user and dog profiles, posts, follows, reactions, image uploads, and playdate scheduling. It handles authentication, relational modeling, ownership rules, pagination, the race conditions of concurrent writes, and real production error handling. **[Source →](https://github.com/alonbaron/dogsocial)**
 <br>`React` · `Spring Boot` · `MySQL` · `JWT` · `Railway` · `Vercel`
 
 > **[Gal Baron Insurance](https://www.galb-ins.co.il)** — a production Hebrew/RTL site for an independent agent: accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting. Source stays private — it's client work.
