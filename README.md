@@ -3,11 +3,17 @@
 </p>
 
 <p align="center">
-  <a href="https://numra.co.il"><img alt="NUMRA — live" src="https://img.shields.io/badge/NUMRA-live-22D3EE?style=flat-square&labelColor=0A0E18"></a>&nbsp;
-  <a href="https://dogsocial.vercel.app"><img alt="PawPals — live" src="https://img.shields.io/badge/PawPals-live-E879F9?style=flat-square&labelColor=140A1B"></a>&nbsp;
-  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v2" src="https://img.shields.io/badge/alon--skills-v2-A78BFA?style=flat-square&labelColor=140A1B"></a>&nbsp;
-  <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-818CF8?style=flat-square&labelColor=0A0E18&logo=github"></a>&nbsp;
-  <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-34D399?style=flat-square&labelColor=0A0E18&logo=gmail&logoColor=white"></a>
+  <a href="https://numra.co.il"><img alt="NUMRA — live" src="https://img.shields.io/badge/NUMRA-live-0891B2?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://dogsocial.vercel.app"><img alt="PawPals — live" src="https://img.shields.io/badge/PawPals-live-C026D3?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v2" src="https://img.shields.io/badge/alon--skills-v2-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-4F46E5?style=flat-square&labelColor=0F1E33&logo=github&logoColor=white"></a>&nbsp;
+  <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-059669?style=flat-square&labelColor=0F1E33&logo=gmail&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <img alt="Role" src="https://img.shields.io/badge/CS-year_II-334A66?style=flat-square&labelColor=0F1E33">&nbsp;
+  <img alt="Healthcare IT" src="https://img.shields.io/badge/Healthcare_IT-developer-0E7490?style=flat-square&labelColor=0F1E33">&nbsp;
+  <img alt="Focus" src="https://img.shields.io/badge/focus-architecture_%3E_syntax-6D28D9?style=flat-square&labelColor=0F1E33">
 </p>
 
 <p align="center">

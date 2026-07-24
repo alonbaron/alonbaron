@@ -1,21 +1,24 @@
 <svg width="900" height="210" viewBox="0 0 900 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">How Alon builds — the engineering loop</title>
-<desc id="d">A four-stage engineering pipeline with a flowing data pulse: 01 Model, 02 Enforce, 03 Observe, 04 Evolve — from idea to an operable system.</desc>
+<desc id="d">A blueprint-style four-stage engineering pipeline with a flowing data pulse: 01 Model, 02 Enforce, 03 Observe, 04 Evolve — from idea to an operable system.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="900" y2="210" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#0A0E18"/><stop offset=".5" stop-color="#070A12"/><stop offset="1" stop-color="#0B0814"/>
+    <stop stop-color="#F5F8FC"/><stop offset=".5" stop-color="#EDF3FB"/><stop offset="1" stop-color="#E7EEF9"/>
   </linearGradient>
   <linearGradient id="rail" x1="145" y1="0" x2="784" y2="0" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#22D3EE"/><stop offset=".34" stop-color="#38BDF8"/><stop offset=".67" stop-color="#818CF8"/><stop offset="1" stop-color="#E879F9"/>
+    <stop stop-color="#0891B2"/><stop offset=".34" stop-color="#0EA5E9"/><stop offset=".67" stop-color="#4F46E5"/><stop offset="1" stop-color="#C026D3"/>
   </linearGradient>
   <radialGradient id="gC" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(145 100) scale(280 160)">
-    <stop stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    <stop stop-color="#0891B2" stop-opacity=".1"/><stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="gM" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(784 110) scale(280 160)">
-    <stop stop-color="#E879F9" stop-opacity=".2"/><stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
+    <stop stop-color="#C026D3" stop-opacity=".09"/><stop offset="1" stop-color="#C026D3" stop-opacity="0"/>
   </radialGradient>
-  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-    <path d="M30 0H0V30" fill="none" stroke="#2A3650" stroke-width=".7" stroke-opacity=".4"/>
+  <pattern id="minor" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M15 0H0V15" fill="none" stroke="#C4D3E6" stroke-width=".6" stroke-opacity=".5"/>
+  </pattern>
+  <pattern id="major" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M60 0H0V60" fill="none" stroke="#AFC3DD" stroke-width=".9" stroke-opacity=".55"/>
   </pattern>
   <filter id="gw" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="4"/></filter>
   <clipPath id="card"><rect x="10" y="10" width="880" height="190" rx="16"/></clipPath>
@@ -26,52 +29,49 @@
     .n{animation:np 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
     .n2{animation-delay:.5s}.n3{animation-delay:1s}.n4{animation-delay:1.5s}
     @keyframes flow{0%{transform:translateX(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateX(639px);opacity:0}}
-    @keyframes np{0%,100%{opacity:.5}50%{opacity:1}}
+    @keyframes np{0%,100%{opacity:.55}50%{opacity:1}}
     @media (prefers-reduced-motion:reduce){.pulse,.n{animation:none}.pulse{opacity:1}}
   ]]></style>
 </defs>
 
 <rect width="900" height="210" fill="url(#bg)"/>
 <g clip-path="url(#card)">
-  <rect width="900" height="210" fill="url(#grid)"/>
+  <rect width="900" height="210" fill="url(#minor)"/>
+  <rect width="900" height="210" fill="url(#major)"/>
   <rect width="900" height="210" fill="url(#gC)"/>
   <rect width="900" height="210" fill="url(#gM)"/>
 </g>
-<rect x="10" y="10" width="880" height="190" rx="16" fill="none" stroke="#1E2A42"/>
+<rect x="10" y="10" width="880" height="190" rx="16" fill="none" stroke="#CBD9EA"/>
 
 <text x="34" y="42" class="mono" font-size="11" letter-spacing="2.5" fill="#5B6B86">ENGINEERING LOOP</text>
-<text x="866" y="42" text-anchor="end" class="mono" font-size="11" letter-spacing="1.5" fill="#475569">IDEA → OPERABLE SYSTEM</text>
+<text x="866" y="42" text-anchor="end" class="mono" font-size="11" letter-spacing="1.5" fill="#7688A3">IDEA → OPERABLE SYSTEM</text>
 
 <!-- rail -->
-<line x1="145" y1="100" x2="784" y2="100" stroke="#1E2C45" stroke-width="4" stroke-linecap="round"/>
+<line x1="145" y1="100" x2="784" y2="100" stroke="#D2DFEE" stroke-width="4" stroke-linecap="round"/>
 <line x1="145" y1="100" x2="784" y2="100" stroke="url(#rail)" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 7"/>
 <!-- flowing pulse -->
 <g transform="translate(145 100)"><g class="pulse">
-  <circle r="9" fill="#fff" filter="url(#gw)" opacity=".7"/>
-  <circle r="3.5" fill="#fff"/>
+  <circle r="9" fill="#4F46E5" filter="url(#gw)" opacity=".45"/>
+  <circle r="4" fill="#4F46E5"/><circle r="1.6" fill="#EEF2FF"/>
 </g></g>
 
 <!-- nodes -->
 <g class="sans" text-anchor="middle">
-  <!-- 01 -->
-  <circle class="n" cx="145" cy="100" r="30" fill="#0B1B2B" stroke="#22D3EE" stroke-width="1.6"/>
-  <text x="145" y="107" class="mono" font-size="19" font-weight="bold" fill="#67E8F9">01</text>
-  <text x="145" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#E2E8F0">MODEL</text>
-  <text x="145" y="178" class="mono" font-size="10.5" fill="#7587A3">data · flows · invariants</text>
-  <!-- 02 -->
-  <circle class="n n2" cx="358" cy="100" r="30" fill="#0B1A2E" stroke="#38BDF8" stroke-width="1.6"/>
-  <text x="358" y="107" class="mono" font-size="19" font-weight="bold" fill="#7DD3FC">02</text>
-  <text x="358" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#E2E8F0">ENFORCE</text>
-  <text x="358" y="178" class="mono" font-size="10.5" fill="#7587A3">boundaries · rules · tests</text>
-  <!-- 03 -->
-  <circle class="n n3" cx="571" cy="100" r="30" fill="#15172E" stroke="#818CF8" stroke-width="1.6"/>
-  <text x="571" y="107" class="mono" font-size="19" font-weight="bold" fill="#A5B4FC">03</text>
-  <text x="571" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#E2E8F0">OBSERVE</text>
-  <text x="571" y="178" class="mono" font-size="10.5" fill="#7587A3">errors · behavior · reality</text>
-  <!-- 04 -->
-  <circle class="n n4" cx="784" cy="100" r="30" fill="#21142B" stroke="#E879F9" stroke-width="1.6"/>
-  <text x="784" y="107" class="mono" font-size="19" font-weight="bold" fill="#F0ABFC">04</text>
-  <text x="784" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#E2E8F0">EVOLVE</text>
-  <text x="784" y="178" class="mono" font-size="10.5" fill="#7587A3">small · legible · reversible</text>
+  <circle class="n" cx="145" cy="100" r="30" fill="#FFFFFF" stroke="#0891B2" stroke-width="1.8"/>
+  <text x="145" y="107" class="mono" font-size="19" font-weight="bold" fill="#0891B2">01</text>
+  <text x="145" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#0F1E33">MODEL</text>
+  <text x="145" y="178" class="mono" font-size="10.5" fill="#5B6B86">data · flows · invariants</text>
+  <circle class="n n2" cx="358" cy="100" r="30" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="1.8"/>
+  <text x="358" y="107" class="mono" font-size="19" font-weight="bold" fill="#0284C7">02</text>
+  <text x="358" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#0F1E33">ENFORCE</text>
+  <text x="358" y="178" class="mono" font-size="10.5" fill="#5B6B86">boundaries · rules · tests</text>
+  <circle class="n n3" cx="571" cy="100" r="30" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.8"/>
+  <text x="571" y="107" class="mono" font-size="19" font-weight="bold" fill="#4F46E5">03</text>
+  <text x="571" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#0F1E33">OBSERVE</text>
+  <text x="571" y="178" class="mono" font-size="10.5" fill="#5B6B86">errors · behavior · reality</text>
+  <circle class="n n4" cx="784" cy="100" r="30" fill="#FFFFFF" stroke="#C026D3" stroke-width="1.8"/>
+  <text x="784" y="107" class="mono" font-size="19" font-weight="bold" fill="#C026D3">04</text>
+  <text x="784" y="158" font-size="15" font-weight="700" letter-spacing="2" fill="#0F1E33">EVOLVE</text>
+  <text x="784" y="178" class="mono" font-size="10.5" fill="#5B6B86">small · legible · reversible</text>
 </g>
 </svg>

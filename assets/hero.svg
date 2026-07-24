@@ -1,109 +1,149 @@
-<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">Alon Baron — systems-minded full-stack developer</title>
-<desc id="d">A tech HUD banner: the wordmark ALON BARON in a cyan-to-magenta gradient over a dark grid, framed by corner brackets and live telemetry. Tagline: architecture over syntax.</desc>
+<desc id="d">A blueprint-style mission-control console on light paper: the wordmark ALON BARON in a cyan-to-magenta gradient on the left over a steel grid, a typed identity line, and a live telemetry panel on the right showing status, shipped products, open source and stack.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="900" y2="300" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#0A0E18"/>
-    <stop offset=".5" stop-color="#070A12"/>
-    <stop offset="1" stop-color="#0B0814"/>
+  <linearGradient id="bg" x1="0" y1="0" x2="900" y2="360" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#F5F8FC"/><stop offset=".5" stop-color="#EDF3FB"/><stop offset="1" stop-color="#E7EEF9"/>
   </linearGradient>
-  <linearGradient id="wm" x1="120" y1="0" x2="780" y2="0" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#5EEAD4"/>
-    <stop offset=".34" stop-color="#38BDF8"/>
-    <stop offset=".64" stop-color="#818CF8"/>
-    <stop offset="1" stop-color="#E879F9"/>
+  <linearGradient id="wm" x1="44" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0891B2"/><stop offset=".34" stop-color="#4F46E5"/><stop offset=".67" stop-color="#7C3AED"/><stop offset="1" stop-color="#C026D3"/>
   </linearGradient>
   <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#22D3EE" stop-opacity="0"/>
-    <stop offset=".2" stop-color="#22D3EE"/>
-    <stop offset=".5" stop-color="#818CF8"/>
-    <stop offset=".8" stop-color="#E879F9"/>
-    <stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
+    <stop stop-color="#0891B2" stop-opacity="0"/><stop offset=".15" stop-color="#0891B2"/><stop offset=".5" stop-color="#4F46E5"/><stop offset=".85" stop-color="#C026D3"/><stop offset="1" stop-color="#C026D3" stop-opacity="0"/>
   </linearGradient>
   <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#fff" stop-opacity="0"/>
-    <stop offset=".5" stop-color="#fff" stop-opacity=".55"/>
-    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    <stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
   </linearGradient>
-  <radialGradient id="gCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 70) scale(360 220)">
-    <stop stop-color="#22D3EE" stop-opacity=".30"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1F6FC"/>
+  </linearGradient>
+  <linearGradient id="eq" x1="0" y1="1" x2="0" y2="0">
+    <stop stop-color="#0891B2"/><stop offset="1" stop-color="#4F46E5"/>
+  </linearGradient>
+  <radialGradient id="gCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 80) scale(400 280)">
+    <stop stop-color="#0891B2" stop-opacity=".12"/><stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="gMag" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(770 250) scale(360 220)">
-    <stop stop-color="#E879F9" stop-opacity=".24"/><stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
+  <radialGradient id="gMag" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 320) scale(420 300)">
+    <stop stop-color="#C026D3" stop-opacity=".10"/><stop offset="1" stop-color="#C026D3" stop-opacity="0"/>
   </radialGradient>
-  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-    <path d="M30 0H0V30" fill="none" stroke="#2A3650" stroke-width=".7" stroke-opacity=".45"/>
+  <pattern id="minor" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M15 0H0V15" fill="none" stroke="#C4D3E6" stroke-width=".6" stroke-opacity=".55"/>
   </pattern>
-  <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
-    <feGaussianBlur stdDeviation="7" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  <pattern id="major" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M60 0H0V60" fill="none" stroke="#AFC3DD" stroke-width=".9" stroke-opacity=".6"/>
+  </pattern>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="220%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="drop" x="-20%" y="-30%" width="140%" height="180%">
+    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1E3A5F" flood-opacity=".16"/>
   </filter>
-  <clipPath id="nameClip"><text x="450" y="172" text-anchor="middle" class="wmark">ALON BARON</text></clipPath>
-  <clipPath id="screen"><rect x="18" y="18" width="864" height="264" rx="16"/></clipPath>
-  <clipPath id="ul"><rect x="300" y="188" width="300" height="6" rx="3"/></clipPath>
+  <clipPath id="screen"><rect x="8" y="8" width="884" height="344" rx="20"/></clipPath>
+  <clipPath id="nameClip"><text x="44" y="212" class="wmark">ALON BARON</text></clipPath>
   <style><![CDATA[
     .mono{font-family:ui-monospace,'Cascadia Code','Segoe UI Mono',Consolas,'Courier New',monospace}
-    .wmark{font-family:'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:96px;letter-spacing:1px}
-    .sheen{animation:sweep 5.5s ease-in-out infinite}
-    .cur{animation:blink 1.1s steps(1) infinite}
+    .sans{font-family:'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',Arial,sans-serif}
+    .wmark{font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;font-weight:800;font-size:66px;letter-spacing:1px}
+    .sheen{animation:sweep 6s ease-in-out infinite}
+    .cur{animation:blink 1s steps(1) infinite}
     .liveDot{animation:pulse 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
     .liveRing{animation:ring 1.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
-    .scan{animation:scan 7s linear infinite}
-    .ulSheen{animation:uls 4.5s ease-in-out infinite}
-    @keyframes sweep{0%{transform:translateX(-260px)}55%,100%{transform:translateX(760px)}}
-    @keyframes uls{0%{transform:translateX(-90px)}60%,100%{transform:translateX(300px)}}
+    .scan{animation:scan 8s linear infinite}
+    .b{transform-box:fill-box;transform-origin:bottom;animation:bar 1.6s ease-in-out infinite}
+    .b2{animation-delay:.2s}.b3{animation-delay:.45s}.b4{animation-delay:.15s}.b5{animation-delay:.35s}.b6{animation-delay:.55s}
+    .star{animation:tw 3.4s ease-in-out infinite}.s2{animation-delay:1.1s}.s3{animation-delay:2.2s}.s4{animation-delay:.6s}
+    @keyframes sweep{0%{transform:translateX(-200px)}55%,100%{transform:translateX(520px)}}
     @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
     @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.7)}}
-    @keyframes ring{0%{opacity:.5;transform:scale(.7)}75%,100%{opacity:0;transform:scale(2.8)}}
-    @keyframes scan{0%{transform:translateY(0)}100%{transform:translateY(248px)}}
-    @media (prefers-reduced-motion:reduce){.sheen,.cur,.liveDot,.liveRing,.scan,.ulSheen{animation:none}.liveRing{opacity:0}}
+    @keyframes ring{0%{opacity:.55;transform:scale(.7)}75%,100%{opacity:0;transform:scale(2.8)}}
+    @keyframes scan{0%{transform:translateY(-40px)}100%{transform:translateY(360px)}}
+    @keyframes bar{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}
+    @keyframes tw{0%,100%{opacity:.1}50%{opacity:.7}}
+    @media (prefers-reduced-motion:reduce){.sheen,.cur,.liveDot,.liveRing,.scan,.b,.star{animation:none}.liveRing{opacity:0}}
   ]]></style>
 </defs>
 
-<rect width="900" height="300" fill="url(#bg)"/>
+<rect width="900" height="360" fill="url(#bg)"/>
 <g clip-path="url(#screen)">
-  <rect width="900" height="300" fill="url(#grid)"/>
-  <rect width="900" height="300" fill="url(#gCyan)"/>
-  <rect width="900" height="300" fill="url(#gMag)"/>
-  <rect class="scan" x="18" y="18" width="864" height="40" fill="#22D3EE" opacity=".05"/>
+  <rect width="900" height="360" fill="url(#minor)"/>
+  <rect width="900" height="360" fill="url(#major)"/>
+  <rect width="900" height="360" fill="url(#gCyan)"/>
+  <rect width="900" height="360" fill="url(#gMag)"/>
+  <rect class="scan" x="8" y="8" width="884" height="46" fill="#0891B2" opacity=".05"/>
+  <g fill="#4F46E5">
+    <circle class="star" cx="512" cy="70" r="1.6"/><circle class="star s2" cx="560" cy="118" r="1.3"/>
+    <circle class="star s3" cx="486" cy="150" r="1.2"/><circle class="star s4" cx="828" cy="70" r="1.4"/>
+  </g>
 </g>
 
 <!-- frame + HUD corner brackets -->
-<rect x="18" y="18" width="864" height="264" rx="16" fill="none" stroke="#1E2A42" stroke-opacity=".9"/>
-<g stroke="#22D3EE" stroke-width="2" fill="none" stroke-linecap="round">
-  <path d="M30 64V36a6 6 0 0 1 6-6h28"/>
-  <path d="M836 30h28a6 6 0 0 1 6 6v28"/>
-  <path d="M870 236v28a6 6 0 0 1-6 6h-28"/>
-  <path d="M64 270H36a6 6 0 0 1-6-6v-28"/>
+<rect x="8" y="8" width="884" height="344" rx="20" fill="none" stroke="#CBD9EA"/>
+<g stroke="#0891B2" stroke-width="2" fill="none" stroke-linecap="round" stroke-opacity=".9">
+  <path d="M22 58V30a6 6 0 0 1 6-6h28"/>
+  <path d="M846 24h28a6 6 0 0 1 6 6v28"/>
+  <path d="M880 302v28a6 6 0 0 1-6 6h-28"/>
+  <path d="M56 336H28a6 6 0 0 1-6-6v-28"/>
 </g>
 
 <!-- top status bar -->
 <g class="mono" font-size="11.5" letter-spacing="1.5">
-  <circle class="liveRing" cx="50" cy="49" r="4.5" fill="#34D399"/>
-  <circle class="liveDot" cx="50" cy="49" r="4.5" fill="#34D399"/>
-  <text x="64" y="53" fill="#34D399" font-weight="bold">SYSTEMS ONLINE</text>
-  <text x="852" y="53" text-anchor="end" fill="#64748B">HEALTHCARE IT<tspan fill="#475569">  //  </tspan>CS · YEAR II</text>
+  <circle class="liveRing" cx="46" cy="45" r="4.5" fill="#059669"/>
+  <circle class="liveDot" cx="46" cy="45" r="4.5" fill="#059669"/>
+  <text x="60" y="49" fill="#047857" font-weight="bold">SYSTEMS ONLINE</text>
+  <text x="878" y="49" text-anchor="end" fill="#5B6B86">HEALTHCARE IT<tspan fill="#9DB0CC">  //  </tspan>CS · YEAR II</text>
 </g>
 
-<!-- wordmark + sheen -->
-<text x="450" y="172" text-anchor="middle" class="wmark" fill="url(#wm)" filter="url(#glow)" opacity=".42">ALON BARON</text>
-<text x="450" y="172" text-anchor="middle" class="wmark" fill="url(#wm)">ALON BARON</text>
-<g clip-path="url(#nameClip)"><rect class="sheen" x="120" y="96" width="150" height="96" fill="url(#sheen)"/></g>
+<!-- kicker -->
+<text x="46" y="112" class="mono" font-size="12" letter-spacing="4.5" fill="#0E7490">◢ SYSTEMS-MINDED FULL-STACK DEVELOPER</text>
+
+<!-- wordmark + soft depth + sheen -->
+<text x="44" y="212" class="wmark" fill="url(#wm)" filter="url(#drop)">ALON BARON</text>
+<g clip-path="url(#nameClip)"><rect class="sheen" x="0" y="132" width="130" height="96" fill="url(#sheen)"/></g>
 
 <!-- animated underline -->
-<rect x="300" y="190" width="300" height="2.5" rx="1.25" fill="url(#rule)"/>
-<g clip-path="url(#ul)"><rect class="ulSheen" x="300" y="188" width="90" height="6" fill="#fff" opacity=".7"/></g>
+<rect x="46" y="228" width="452" height="2.5" rx="1.25" fill="url(#rule)"/>
 
-<!-- subtitle with live cursor -->
-<g class="mono" text-anchor="middle">
-  <text x="450" y="222" font-size="14" letter-spacing="4" fill="#9FB3D1">SYSTEMS-MINDED FULL-STACK DEVELOPER</text>
-  <text x="450" y="250" font-size="13" letter-spacing="1" fill="#5EEAD4">&gt; architecture &gt; syntax<tspan class="cur" fill="#E879F9">_</tspan></text>
+<!-- identity line with live cursor -->
+<text x="46" y="259" class="mono" font-size="14.5" letter-spacing=".3" fill="#334A66">&gt; architecture &gt; syntax · live products, not boilerplate<tspan class="cur" fill="#C026D3" dx="3">_</tspan></text>
+
+<!-- stack strip -->
+<g class="mono" font-size="12" letter-spacing=".4" fill="#5B6B86">
+  <circle cx="50" cy="300" r="3" fill="#0891B2"/><text x="60" y="304">Java</text>
+  <circle cx="112" cy="300" r="3" fill="#0EA5E9"/><text x="122" y="304">Spring Boot</text>
+  <circle cx="220" cy="300" r="3" fill="#4F46E5"/><text x="230" y="304">React</text>
+  <circle cx="286" cy="300" r="3" fill="#7C3AED"/><text x="296" y="304">TypeScript</text>
+  <circle cx="386" cy="300" r="3" fill="#C026D3"/><text x="396" y="304">Python</text>
+  <circle cx="460" cy="300" r="3" fill="#059669"/><text x="470" y="304">AWS</text>
 </g>
 
-<!-- telemetry row -->
-<g class="mono" font-size="11" letter-spacing=".5" text-anchor="middle">
-  <text x="170" y="276" fill="#64748B">FOCUS · <tspan fill="#94A3B8">ARCHITECTURE</tspan></text>
-  <text x="450" y="276" fill="#64748B">SHIPPING · <tspan fill="#94A3B8">NUMRA + PAWPALS</tspan></text>
-  <text x="730" y="276" fill="#64748B">STACK · <tspan fill="#94A3B8">JAVA / SPRING / REACT</tspan></text>
+<!-- ===== telemetry panel ===== -->
+<g filter="url(#drop)">
+  <rect x="560" y="96" width="308" height="228" rx="14" fill="url(#panel)" stroke="#D2DFEE"/>
+</g>
+<line x1="561" y1="112" x2="867" y2="112" stroke="#0891B2" stroke-opacity=".18" stroke-width="2"/>
+<text x="580" y="126" class="mono" font-size="11.5" letter-spacing="2.5" fill="#334A66">◢ TELEMETRY</text>
+<circle class="liveDot" cx="850" cy="122" r="3.5" fill="#059669"/>
+<line x1="580" y1="140" x2="848" y2="140" stroke="#E2EAF4"/>
+<g class="mono" font-size="12.5">
+  <text x="580" y="170" fill="#7688A3" letter-spacing="1">STATUS</text>
+  <text x="848" y="170" text-anchor="end" fill="#047857" font-weight="bold">SHIPPING</text>
+  <text x="580" y="200" fill="#7688A3" letter-spacing="1">PRODUCTS</text>
+  <text x="848" y="200" text-anchor="end" fill="#0E7490" font-weight="bold">2 LIVE</text>
+  <text x="580" y="230" fill="#7688A3" letter-spacing="1">OPEN SOURCE</text>
+  <text x="848" y="230" text-anchor="end" fill="#6D28D9" font-weight="bold">alon-skills v2</text>
+  <text x="580" y="260" fill="#7688A3" letter-spacing="1">DISCIPLINE</text>
+  <text x="848" y="260" text-anchor="end" fill="#4F46E5" font-weight="bold">model-first</text>
+</g>
+<line x1="580" y1="278" x2="848" y2="278" stroke="#E2EAF4"/>
+<text x="580" y="306" class="mono" font-size="10.5" letter-spacing="1.5" fill="#8C9DB8">THROUGHPUT</text>
+<g transform="translate(724 312)">
+  <rect class="b"  x="0"  y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
+  <rect class="b b2" x="12" y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
+  <rect class="b b3" x="24" y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
+  <rect class="b b4" x="36" y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
+  <rect class="b b5" x="48" y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
+  <rect class="b b6" x="60" y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
+  <rect class="b b3" x="72" y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
+  <rect class="b b2" x="84" y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
+  <rect class="b b5" x="96" y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
+  <rect class="b b4" x="108" y="-22" width="7" height="22" rx="2" fill="url(#eq)"/>
 </g>
 </svg>
