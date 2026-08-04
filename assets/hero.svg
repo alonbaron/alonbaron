@@ -1,6 +1,6 @@
 <svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
-<title id="t">Alon Baron — systems-minded full-stack developer</title>
-<desc id="d">A blueprint-style mission-control console on light paper: the wordmark ALON BARON in a cyan-to-magenta gradient on the left over a steel grid, a typed identity line, and a live telemetry panel on the right showing status, shipped products, open source and stack.</desc>
+<title id="t">Alon Baron — CS student, Systems &amp; AI Dev</title>
+<desc id="d">A blueprint-style mission-control console on light paper: the wordmark ALON BARON in a cyan-to-magenta gradient on the left over a steel grid, a typed identity line, a stack strip beneath it, and a telemetry panel on the right showing status, product count, open source and working discipline.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="900" y2="360" gradientUnits="userSpaceOnUse">
     <stop stop-color="#F5F8FC"/><stop offset=".5" stop-color="#EDF3FB"/><stop offset="1" stop-color="#E7EEF9"/>
@@ -88,11 +88,11 @@
   <circle class="liveRing" cx="46" cy="45" r="4.5" fill="#059669"/>
   <circle class="liveDot" cx="46" cy="45" r="4.5" fill="#059669"/>
   <text x="60" y="49" fill="#047857" font-weight="bold">SYSTEMS ONLINE</text>
-  <text x="878" y="49" text-anchor="end" fill="#5B6B86">HEALTHCARE IT<tspan fill="#9DB0CC">  //  </tspan>CS · YEAR II</text>
+  <text x="878" y="49" text-anchor="end" fill="#5B6B86">SYSTEMS &amp; AI DEV<tspan fill="#9DB0CC">  //  </tspan>CS STUDENT</text>
 </g>
 
 <!-- kicker -->
-<text x="46" y="112" class="mono" font-size="12" letter-spacing="4.5" fill="#0E7490">◢ SYSTEMS-MINDED FULL-STACK DEVELOPER</text>
+<text x="46" y="112" class="mono" font-size="12" letter-spacing="4.5" fill="#0E7490">◢ CS STUDENT · SYSTEMS &amp; AI DEV</text>
 
 <!-- wordmark + soft depth + sheen -->
 <text x="44" y="212" class="wmark" fill="url(#wm)" filter="url(#drop)">ALON BARON</text>
@@ -102,7 +102,7 @@
 <rect x="46" y="228" width="452" height="2.5" rx="1.25" fill="url(#rule)"/>
 
 <!-- identity line with live cursor -->
-<text x="46" y="259" class="mono" font-size="14.5" letter-spacing=".3" fill="#334A66">&gt; architecture &gt; syntax · live products, not boilerplate<tspan class="cur" fill="#C026D3" dx="3">_</tspan></text>
+<text x="46" y="259" class="mono" font-size="14.5" letter-spacing=".3" fill="#334A66">&gt; architecture &gt; syntax · real products, not boilerplate<tspan class="cur" fill="#C026D3" dx="3">_</tspan></text>
 
 <!-- stack strip -->
 <g class="mono" font-size="12" letter-spacing=".4" fill="#5B6B86">
@@ -126,9 +126,9 @@
   <text x="580" y="170" fill="#7688A3" letter-spacing="1">STATUS</text>
   <text x="848" y="170" text-anchor="end" fill="#047857" font-weight="bold">SHIPPING</text>
   <text x="580" y="200" fill="#7688A3" letter-spacing="1">PRODUCTS</text>
-  <text x="848" y="200" text-anchor="end" fill="#0E7490" font-weight="bold">2 LIVE</text>
+  <text x="848" y="200" text-anchor="end" fill="#0E7490" font-weight="bold">3 SHIPPED</text>
   <text x="580" y="230" fill="#7688A3" letter-spacing="1">OPEN SOURCE</text>
-  <text x="848" y="230" text-anchor="end" fill="#6D28D9" font-weight="bold">alon-skills v2</text>
+  <text x="848" y="230" text-anchor="end" fill="#6D28D9" font-weight="bold">alon-skills v2.1</text>
   <text x="580" y="260" fill="#7688A3" letter-spacing="1">DISCIPLINE</text>
   <text x="848" y="260" text-anchor="end" fill="#4F46E5" font-weight="bold">model-first</text>
 </g>

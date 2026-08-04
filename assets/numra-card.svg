@@ -1,6 +1,6 @@
 <svg width="445" height="275" viewBox="0 0 445 275" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">NUMRA — real-time classroom math racing</title>
-<desc id="d">A blueprint-style live product card for NUMRA, a Hebrew-first, server-authoritative real-time classroom math racing platform built with React 19, Spring Boot 4, PostgreSQL, SSE and AWS.</desc>
+<desc id="d">A blueprint-style product card for NUMRA, marked shipped and currently offline. NUMRA is a Hebrew-first, server-authoritative real-time classroom math racing platform built with React 19, Spring Boot 4, PostgreSQL, SSE and AWS.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="445" y2="275" gradientUnits="userSpaceOnUse">
     <stop stop-color="#F6F9FD"/><stop offset="1" stop-color="#E9F0F9"/>
@@ -50,10 +50,9 @@
 
 <!-- top bar -->
 <g class="mono" font-size="11">
-  <circle class="ring" cx="32" cy="40" r="4" fill="#059669"/>
-  <circle class="dot" cx="32" cy="40" r="4" fill="#059669"/>
-  <text x="44" y="44" fill="#047857" font-weight="bold" letter-spacing="1.5">LIVE</text>
-  <text x="413" y="44" text-anchor="end" fill="#0E7490" letter-spacing=".5">numra.co.il</text>
+  <circle cx="32" cy="40" r="4" fill="#8C9DB8"/>
+  <text x="44" y="44" fill="#5B6B86" font-weight="bold" letter-spacing="1.5">SHIPPED</text>
+  <text x="413" y="44" text-anchor="end" fill="#8C9DB8" letter-spacing=".5">offline</text>
 </g>
 
 <!-- name + copy -->

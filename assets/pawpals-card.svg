@@ -1,6 +1,6 @@
 <svg width="445" height="275" viewBox="0 0 445 275" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">PawPals — a social network for dog owners</title>
-<desc id="d">A blueprint-style live product card for PawPals, a full-stack social network for dog owners with profiles, posts, follows, reactions and playdates, built with React, Spring Boot, MySQL, JWT, Railway and Vercel.</desc>
+<desc id="d">A blueprint-style product card for PawPals, marked shipped and currently offline. PawPals is a full-stack social network for dog owners with profiles, posts, follows, reactions and playdates, built with React, Spring Boot, MySQL, JWT, Railway and Vercel.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="445" y2="275" gradientUnits="userSpaceOnUse">
     <stop stop-color="#FBF7FD"/><stop offset="1" stop-color="#F3EDFA"/>
@@ -50,10 +50,9 @@
 
 <!-- top bar -->
 <g class="mono" font-size="11">
-  <circle class="ring" cx="32" cy="40" r="4" fill="#059669"/>
-  <circle class="dot" cx="32" cy="40" r="4" fill="#059669"/>
-  <text x="44" y="44" fill="#047857" font-weight="bold" letter-spacing="1.5">LIVE</text>
-  <text x="413" y="44" text-anchor="end" fill="#7C3AED" letter-spacing=".5">dogsocial.vercel.app</text>
+  <circle cx="32" cy="40" r="4" fill="#8C9DB8"/>
+  <text x="44" y="44" fill="#5B6B86" font-weight="bold" letter-spacing="1.5">SHIPPED</text>
+  <text x="413" y="44" text-anchor="end" fill="#8C9DB8" letter-spacing=".5">offline</text>
 </g>
 
 <!-- name + copy -->
