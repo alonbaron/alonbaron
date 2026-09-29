@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v2.1" src="https://img.shields.io/badge/alon--skills-v2.1-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.0.2" src="https://img.shields.io/badge/alon--skills-v3.0.2-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-C026D3?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-4F46E5?style=flat-square&labelColor=0F1E33&logo=github&logoColor=white"></a>&nbsp;
   <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-059669?style=flat-square&labelColor=0F1E33&logo=gmail&logoColor=white"></a>
@@ -51,6 +51,10 @@
 
 ## ◢ Work
 
+**Rav-Bariach (08) Industries** — *Student Employee · Information Systems &amp; AI* · current
+I lead AI adoption across the company: hands-on enablement sessions with employees, and finding the processes worth automating. Alongside that, I build internal IT automation tooling together with the IT team.
+<br>`AI adoption` · `automation` · `information systems` · `IT`
+
 **Barzilai Medical Center** — *Student Team Lead · IT, systems &amp; software* · previously
 I led the student team across a live hospital's technology stack — technical support, systems, and software. Built a **shift-scheduling automation** that turned a manual rostering chore into a repeatable system for the team — a small piece of software that quietly gave people their time back.
 <br>`automation` · `scheduling` · `systems` · `IT` · `healthcare`
@@ -81,8 +85,8 @@ I build and ship production sites for real clients end to end: design, build, de
   <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="62%" alt="alon-skills — six Claude Code skills, one install"></a>
 </p>
 
-**[alon-skills](https://github.com/alonbaron/claude-skills)** packages how I work into six installable [Claude Code](https://code.claude.com) skills: an **architect** that writes the design before the code, a parallel **review-swarm**, an **ask-the-council** decision panel, a strict **prompt-generator**, a repo **up-to-date** preflight, and **ponytail** for ruthless simplicity. **v2 made them proactive** — each skill fires on the *shape* of the task, not just its keywords, and knows when to stay out of the way. **v2.1** settled the border disputes between them: sharper triggers, plus a written tiebreak for every pair of skills that could otherwise both think a task was theirs. One install, MIT-licensed. **[Install &amp; source →](https://github.com/alonbaron/claude-skills)**
-<br>`Claude Code` · `agentic development` · `MIT`
+**[alon-skills](https://github.com/alonbaron/claude-skills)** packages how I work into six installable [Claude Code](https://code.claude.com) skills: an **architect** that writes the design before the code, a parallel **review-swarm**, an **ask-the-council** decision panel, a strict **prompt-generator**, a repo **up-to-date** preflight, and **ponytail** for ruthless simplicity. Each one fires on the *shape* of the task and knows when to stay out of the way. **v3** adds proof: an eval suite runs every skill with and without the plugin, and all 19 cases pass. On a real diff with an N+1 query, review-swarm scores 0.90 against 0.40 without it, and across 120 trigger prompts no skill fires when it shouldn't. v3 also ships a **build loop** that works through a TODO list unattended, one fresh agent per stage: plan, spec, build, independent review, fix. One install, MIT-licensed. **[Install &amp; source →](https://github.com/alonbaron/claude-skills)**
+<br>`Claude Code` · `agentic development` · `evals` · `MIT`
 
 **[UnDrive](https://github.com/alonbaron/UnDrive)** removes OneDrive from a Windows PC in the order Microsoft doesn't: **secure every file first** — download cloud-only placeholders, move everything to local disk, re-point Desktop/Documents/Pictures — and only then uninstall, behind an explicit YES gate. One ~330-line stock-PowerShell script; no installer, no dependencies, safe to re-run.
 <br>`PowerShell` · `Windows` · `MIT`
@@ -96,8 +100,7 @@ I build and ship production sites for real clients end to end: design, build, de
 
 | Project | What it explores |
 |---|---|
-| **Shift Manager** *(in design)* | Multi-tenant SaaS shift manager, docs-before-code: the full design system (source of truth → roadmap → phased tasks) lands before implementation — `Next.js` · `TypeScript` · `PostgreSQL + RLS` · `AWS`. |
-| **ALMAS / Virtual Try-On** *(in progress)* | A high-end jewelry configurator + image-based virtual try-on workflow, in active development — `Next.js` · `TypeScript` · `Python` · `FastAPI`. |
+| **Shift Manager** *(private)* | Multi-tenant SaaS shift manager, built docs-before-code: the full design system (source of truth → roadmap → phased tasks) landed before implementation. Finished; source kept private — `Next.js` · `TypeScript` · `PostgreSQL + RLS` · `AWS`. |
 | **[Dining Philosophers](https://github.com/alonbaron/DiningPhilosophers)** | Concurrency visualizer using global lock ordering and `ReentrantLock` to kill deadlock and races. |
 | **[Mortal Madmach](https://github.com/alonbaron/MortalMadmachGame)** | A Java Swing arena game — AI behavior, combat state, custom art, audio, rounds, power-ups. |
 | **[Telegram Survey Bot](https://github.com/alonbaron/TelegramApiSurveyBot)** | Java desktop app that builds Telegram surveys, collects inline-button votes, and charts results in Swing. |
