@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.0.2" src="https://img.shields.io/badge/alon--skills-v3.0.2-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 19/19 passing" src="https://img.shields.io/badge/evals-19%2F19_passing-16A34A?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-C026D3?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-4F46E5?style=flat-square&labelColor=0F1E33&logo=github&logoColor=white"></a>&nbsp;
   <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-059669?style=flat-square&labelColor=0F1E33&logo=gmail&logoColor=white"></a>
@@ -18,8 +19,38 @@
 
 <p align="center">
   <b>CS student · Systems &amp; AI Dev.</b><br>
-  <sub>I build software that gets used by people who aren't me — a classroom platform, a social network, a tender tracker a paying customer runs on. I care less about which framework and more about how the pieces hold together when the load, the edge cases, and the deadlines arrive.</sub>
+  <sub>I build software that gets used by people who aren't me — a classroom platform, a social network, a tender tracker a paying customer runs on — and open-source developer tooling that I measure instead of just trusting. I care less about which framework and more about how the pieces hold together when the load, the edge cases, and the deadlines arrive.</sub>
 </p>
+
+---
+
+## ◢ alon-skills — Claude Code skills, measured
+
+<p align="center">
+  <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="900" alt="alon-skills card: six Claude Code skills and a build loop, with eval scores with and without the plugin"></a>
+</p>
+
+**[alon-skills](https://github.com/alonbaron/claude-skills)** is a Claude Code plugin that packages how I build software into six skills and one workflow, and measures them instead of asking you to trust them.
+
+- **Six skills.** **architect** writes the design docs before the code. **review-swarm** runs six parallel specialist reviewers, then verifiers that try to refute each finding, and returns a ranked `file:line` report. **ask-the-council** seats advisors who are made to disagree, then commits to one recommendation with the tradeoff named. **prompt-generator** turns a vague ask into a rigorous agent prompt, and **up-to-date** runs a read-only repo preflight before work starts. **ponytail** keeps solutions minimal; it's vendored from [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (MIT). Each skill fires on the shape of the task and has a written boundary for when to stay quiet.
+- **Build loop.** `/alon-skills:build-loop` works through a `TODO_WORKFLOW.md` one row at a time without supervision: plan → spec → build → independent review lenses → fix → close. Every stage is a fresh subagent on the model tier that fits the job, and state lives in the repo, not the chat. Measured once on a throwaway repo, it built, reviewed and closed one row in about four minutes for $1.75.
+- **Evals.** A `claude plugin eval` suite runs every case with and without the plugin. All 19 cases pass. Across 120 trigger prompts, each skill fired on 80–100% of the prompts meant for it and never on the others.
+
+| Eval case | With the plugin | Without |
+|---|:---:|:---:|
+| **review-swarm** on a real diff with an N+1 query | **0.90** | 0.40 |
+| **ponytail** asked for a pluggable cache with one caller | **1.00** | 0.40 |
+| **ask-the-council** reaching a verdict and handing off the build | **1.00** | 0.17 |
+| **architect** speccing a feature from scratch | **1.00** | 0.67 |
+| **up-to-date** on a branch that was never pushed | **1.00** | 0.50 |
+
+<sub>These are the cases with the clearest uplift. Some cases score the same without the plugin because they test when a skill should stay quiet; the [full table](https://github.com/alonbaron/claude-skills#-evals) has all 19.</sub>
+
+```text
+/plugin marketplace add alonbaron/claude-skills
+/plugin install alon-skills@alonbaron
+```
+`Claude Code` · `agentic workflows` · `evals` · `MIT` · **[Source & releases →](https://github.com/alonbaron/claude-skills)**
 
 ---
 
@@ -79,14 +110,7 @@ I build and ship production sites for real clients end to end: design, build, de
 
 ---
 
-## ◢ Open source
-
-<p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="62%" alt="alon-skills — six Claude Code skills, one install"></a>
-</p>
-
-**[alon-skills](https://github.com/alonbaron/claude-skills)** packages how I work into six installable [Claude Code](https://code.claude.com) skills: an **architect** that writes the design before the code, a parallel **review-swarm**, an **ask-the-council** decision panel, a strict **prompt-generator**, a repo **up-to-date** preflight, and **ponytail** for ruthless simplicity. Each one fires on the *shape* of the task and knows when to stay out of the way. **v3** adds proof: an eval suite runs every skill with and without the plugin, and all 19 cases pass. On a real diff with an N+1 query, review-swarm scores 0.90 against 0.40 without it, and across 120 trigger prompts no skill fires when it shouldn't. v3 also ships a **build loop** that works through a TODO list unattended, one fresh agent per stage: plan, spec, build, independent review, fix. One install, MIT-licensed. **[Install &amp; source →](https://github.com/alonbaron/claude-skills)**
-<br>`Claude Code` · `agentic development` · `evals` · `MIT`
+## ◢ More open source
 
 **[UnDrive](https://github.com/alonbaron/UnDrive)** removes OneDrive from a Windows PC in the order Microsoft doesn't: **secure every file first** — download cloud-only placeholders, move everything to local disk, re-point Desktop/Documents/Pictures — and only then uninstall, behind an explicit YES gate. One ~330-line stock-PowerShell script; no installer, no dependencies, safe to re-run.
 <br>`PowerShell` · `Windows` · `MIT`

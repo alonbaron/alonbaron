@@ -128,7 +128,7 @@
   <text x="580" y="200" fill="#7688A3" letter-spacing="1">PRODUCTS</text>
   <text x="848" y="200" text-anchor="end" fill="#0E7490" font-weight="bold">3 SHIPPED</text>
   <text x="580" y="230" fill="#7688A3" letter-spacing="1">OPEN SOURCE</text>
-  <text x="848" y="230" text-anchor="end" fill="#6D28D9" font-weight="bold">alon-skills v2.1</text>
+  <text x="848" y="230" text-anchor="end" fill="#6D28D9" font-weight="bold">alon-skills v3.0.2</text>
   <text x="580" y="260" fill="#7688A3" letter-spacing="1">DISCIPLINE</text>
   <text x="848" y="260" text-anchor="end" fill="#4F46E5" font-weight="bold">model-first</text>
 </g>

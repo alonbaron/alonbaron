@@ -1,89 +1,118 @@
-<svg width="445" height="275" viewBox="0 0 445 275" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
-<title id="t">alon-skills — six Claude Code skills, one install</title>
-<desc id="d">A blueprint-style open-source card for alon-skills, a Claude Code plugin bundling six skills: architect, review-swarm, ask-the-council, prompt-generator, up-to-date and ponytail. MIT licensed.</desc>
+<svg width="900" height="384" viewBox="0 0 900 384" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">alon-skills — Claude Code skills, measured</title>
+<desc id="d">Card for alon-skills v3.0.2, a Claude Code plugin with six skills and an unattended build loop. Selected eval cases, scored with and without the plugin: review-swarm 0.90 vs 0.40, ponytail 1.00 vs 0.40, ask-the-council 1.00 vs 0.17, architect 1.00 vs 0.67, up-to-date 1.00 vs 0.50. 19 of 19 eval cases pass; 120 trigger prompts, no false fires.</desc>
 <defs>
-  <linearGradient id="bg2" x1="0" y1="0" x2="445" y2="275" gradientUnits="userSpaceOnUse">
+  <linearGradient id="bg" x1="0" y1="0" x2="900" y2="384" gradientUnits="userSpaceOnUse">
     <stop stop-color="#F5F9FD"/><stop offset="1" stop-color="#EAF0FA"/>
   </linearGradient>
-  <linearGradient id="nm2" x1="30" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+  <linearGradient id="nm" x1="30" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
     <stop stop-color="#0891B2"/><stop offset=".5" stop-color="#0EA5E9"/><stop offset="1" stop-color="#6D28D9"/>
   </linearGradient>
-  <radialGradient id="gl2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 30) scale(220 180)">
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#0891B2"/><stop offset=".55" stop-color="#4F46E5"/><stop offset="1" stop-color="#7C3AED"/>
+  </linearGradient>
+  <radialGradient id="gl" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 40) scale(360 260)">
     <stop stop-color="#4F46E5" stop-opacity=".12"/><stop offset="1" stop-color="#4F46E5" stop-opacity="0"/>
   </radialGradient>
-  <pattern id="grid2" width="26" height="26" patternUnits="userSpaceOnUse">
+  <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
     <path d="M26 0H0V26" fill="none" stroke="#C4D3E6" stroke-width=".6" stroke-opacity=".5"/>
   </pattern>
-  <filter id="gw2" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.2"/></filter>
-  <clipPath id="card2"><rect x="6" y="6" width="433" height="263" rx="16"/></clipPath>
+  <clipPath id="card"><rect x="6" y="6" width="888" height="372" rx="18"/></clipPath>
   <style><![CDATA[
     .mono{font-family:ui-monospace,'Cascadia Code','Segoe UI Mono',Consolas,monospace}
     .sans{font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif}
-    .nmk{font-family:'Segoe UI',system-ui,Roboto,Arial,sans-serif;font-weight:800;font-size:44px;letter-spacing:.5px}
+    .nmk{font-family:'Segoe UI',system-ui,Roboto,Arial,sans-serif;font-weight:800;font-size:58px;letter-spacing:.5px}
     .dot{animation:p 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
     .ring{animation:r 1.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
-    .core{animation:cr 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-    .s1{animation:flow 2.6s ease-in-out infinite}
-    .s2{animation:flow 2.6s ease-in-out .4s infinite}
-    .s3{animation:flow 2.6s ease-in-out .8s infinite}
-    .s4{animation:flow 2.6s ease-in-out 1.2s infinite}
-    .s5{animation:flow 2.6s ease-in-out 1.6s infinite}
-    .s6{animation:flow 2.6s ease-in-out 2s infinite}
+    .grow{animation:g 1.1s cubic-bezier(.2,.7,.2,1) both;transform-box:fill-box;transform-origin:left center}
     @keyframes p{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.7)}}
     @keyframes r{0%{opacity:.55;transform:scale(.7)}75%,100%{opacity:0;transform:scale(2.8)}}
-    @keyframes cr{0%,100%{opacity:.9}50%{opacity:1}}
-    @keyframes flow{0%,100%{stroke-opacity:.22}50%{stroke-opacity:.9}}
-    @media (prefers-reduced-motion:reduce){.dot,.ring,.core,.s1,.s2,.s3,.s4,.s5,.s6{animation:none}.ring{opacity:0}}
+    @keyframes g{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @media (prefers-reduced-motion:reduce){.dot,.ring,.grow{animation:none}.ring{opacity:0}}
   ]]></style>
 </defs>
 
-<rect width="445" height="275" fill="url(#bg2)"/>
-<g clip-path="url(#card2)">
-  <rect width="445" height="275" fill="url(#grid2)"/>
-  <rect width="445" height="275" fill="url(#gl2)"/>
+<rect width="900" height="384" fill="url(#bg)"/>
+<g clip-path="url(#card)">
+  <rect width="900" height="384" fill="url(#grid)"/>
+  <rect width="900" height="384" fill="url(#gl)"/>
 </g>
-<rect x="6" y="6" width="433" height="263" rx="16" fill="none" stroke="#D2DFEE"/>
+<rect x="6" y="6" width="888" height="372" rx="18" fill="none" stroke="#D2DFEE"/>
 <g stroke="#4F46E5" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-opacity=".9">
   <path d="M18 40V28a4 4 0 0 1 4-4h12"/>
-  <path d="M427 40V28a4 4 0 0 0-4-4h-12"/>
-  <path d="M18 235v12a4 4 0 0 0 4 4h12"/>
-  <path d="M427 235v12a4 4 0 0 0-4 4h-12"/>
+  <path d="M882 40V28a4 4 0 0 0-4-4h-12"/>
+  <path d="M18 344v12a4 4 0 0 0 4 4h12"/>
+  <path d="M882 344v12a4 4 0 0 0-4 4h-12"/>
 </g>
 
-<!-- top bar -->
 <g class="mono" font-size="11">
-  <circle class="ring" cx="32" cy="40" r="4" fill="#059669"/>
-  <circle class="dot" cx="32" cy="40" r="4" fill="#059669"/>
-  <text x="44" y="44" fill="#047857" font-weight="bold" letter-spacing="1.5">OPEN SOURCE</text>
-  <text x="413" y="44" text-anchor="end" fill="#4F46E5" letter-spacing="1">MIT</text>
+  <circle class="ring" cx="34" cy="40" r="4" fill="#059669"/>
+  <circle class="dot" cx="34" cy="40" r="4" fill="#059669"/>
+  <text x="46" y="44" fill="#047857" font-weight="bold" letter-spacing="1.5">OPEN SOURCE</text>
+  <text x="866" y="44" text-anchor="end" fill="#4F46E5" letter-spacing="1">v3.0.2 · MIT</text>
 </g>
 
-<!-- name + copy -->
-<text x="32" y="64" class="mono" font-size="11" letter-spacing="3" fill="#4F46E5">CLAUDE CODE · TOOLKIT</text>
-<text x="30" y="116" class="nmk" fill="url(#nm2)">alon-skills</text>
-<text x="32" y="140" class="sans" font-size="15" font-weight="600" fill="#233A57">Six skills · build loop · 19/19 evals</text>
-<text x="32" y="161" class="sans" font-size="12.5" fill="#5B6B86">architect · review · council · prompts</text>
+<text x="34" y="80" class="mono" font-size="11" letter-spacing="3" fill="#4F46E5">CLAUDE CODE PLUGIN</text>
+<text x="31" y="142" class="nmk" fill="url(#nm)">alon-skills</text>
+<text x="34" y="176" class="sans" font-size="21" font-weight="700" fill="#233A57">Claude Code skills, measured.</text>
+<text x="34" y="202" class="sans" font-size="14" fill="#5B6B86">6 skills + an unattended build loop</text>
 
-<!-- motif: one plugin core -> six skills -->
-<g>
-  <g stroke="#4F46E5">
-    <path class="s1" d="M350 192 L350 150"/>
-    <path class="s2" d="M350 192 L385 171"/>
-    <path class="s3" d="M350 192 L385 213"/>
-    <path class="s4" d="M350 192 L350 234"/>
-    <path class="s5" d="M350 192 L315 213"/>
-    <path class="s6" d="M350 192 L315 171"/>
-  </g>
-  <circle cx="350" cy="150" r="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="1.4"/>
-  <circle cx="385" cy="171" r="6" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="1.4"/>
-  <circle cx="385" cy="213" r="6" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.4"/>
-  <circle cx="350" cy="234" r="6" fill="#FFFFFF" stroke="#6D28D9" stroke-width="1.4"/>
-  <circle cx="315" cy="213" r="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.4"/>
-  <circle cx="315" cy="171" r="6" fill="#FFFFFF" stroke="#C026D3" stroke-width="1.4"/>
-  <circle class="core" cx="350" cy="192" r="12" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.8"/>
-  <text x="350" y="197" text-anchor="middle" class="mono" font-size="14" font-weight="bold" fill="#4F46E5">/</text>
+<g class="mono" font-size="12" fill="#4F46E5">
+  <rect x="34" y="220" width="92" height="26" rx="7" fill="#FFFFFF" fill-opacity=".8" stroke="#C9D6EA"/>
+  <text x="80" y="237" text-anchor="middle">/architect</text>
+  <rect x="134" y="220" width="114" height="26" rx="7" fill="#FFFFFF" fill-opacity=".8" stroke="#C9D6EA"/>
+  <text x="191" y="237" text-anchor="middle">/review-swarm</text>
+  <rect x="256" y="220" width="136" height="26" rx="7" fill="#FFFFFF" fill-opacity=".8" stroke="#C9D6EA"/>
+  <text x="324" y="237" text-anchor="middle">/ask-the-council</text>
+  <rect x="34" y="254" width="142" height="26" rx="7" fill="#FFFFFF" fill-opacity=".8" stroke="#C9D6EA"/>
+  <text x="105" y="271" text-anchor="middle">/prompt-generator</text>
+  <rect x="184" y="254" width="100" height="26" rx="7" fill="#FFFFFF" fill-opacity=".8" stroke="#C9D6EA"/>
+  <text x="234" y="271" text-anchor="middle">/up-to-date</text>
+  <rect x="292" y="254" width="86" height="26" rx="7" fill="#FFFFFF" fill-opacity=".8" stroke="#C9D6EA"/>
+  <text x="335" y="271" text-anchor="middle">/ponytail</text>
 </g>
 
-<!-- bottom meta -->
-<text x="32" y="244" class="mono" font-size="11" fill="#4A5B78">Claude Code<tspan fill="#AFC3DD"> · </tspan>6 skills<tspan fill="#AFC3DD"> · </tspan>one install<tspan fill="#AFC3DD"> · </tspan>MIT</text>
+<g class="mono" font-size="11.5">
+  <circle cx="38" cy="342" r="4" fill="#059669"/>
+  <text x="48" y="346" fill="#047857" font-weight="bold">19/19 evals passing</text>
+  <text x="196" y="346" fill="#4A5B78"><tspan fill="#AFC3DD">· </tspan>120 trigger prompts<tspan fill="#AFC3DD"> · </tspan>0 false fires</text>
+</g>
+
+<rect x="466" y="56" width="400" height="278" rx="14" fill="#FFFFFF" fill-opacity=".88" stroke="#D2DFEE"/>
+<text x="488" y="84" class="mono" font-size="11" letter-spacing="2" fill="#4A5B78">EVAL CASES</text>
+<g class="mono" font-size="10.5" fill="#5B6B86">
+  <rect x="712" y="76" width="10" height="10" rx="2" fill="url(#bar)"/>
+  <text x="727" y="85">with</text>
+  <rect x="774" y="76" width="10" height="10" rx="2" fill="#B8C4D6"/>
+  <text x="789" y="85">without</text>
+</g>
+<line x1="488" y1="98" x2="846" y2="98" stroke="#E2E9F3"/>
+<!-- bar scale: 290px = 1.00 -->
+<text x="488" y="122" class="sans" font-size="13" font-weight="700" fill="#233A57">review-swarm</text>
+<rect class="grow" x="488" y="130" width="261" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="140" width="116" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="136" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">0.90</text>
+<text x="846" y="147" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.40</text>
+<text x="488" y="164" class="sans" font-size="13" font-weight="700" fill="#233A57">ponytail</text>
+<rect class="grow" x="488" y="172" width="290" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="182" width="116" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="178" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">1.00</text>
+<text x="846" y="189" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.40</text>
+<text x="488" y="206" class="sans" font-size="13" font-weight="700" fill="#233A57">ask-the-council</text>
+<rect class="grow" x="488" y="214" width="290" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="224" width="49" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="220" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">1.00</text>
+<text x="846" y="231" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.17</text>
+<text x="488" y="248" class="sans" font-size="13" font-weight="700" fill="#233A57">architect</text>
+<rect class="grow" x="488" y="256" width="290" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="266" width="194" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="262" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">1.00</text>
+<text x="846" y="273" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.67</text>
+<text x="488" y="290" class="sans" font-size="13" font-weight="700" fill="#233A57">up-to-date</text>
+<rect class="grow" x="488" y="298" width="290" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="308" width="145" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="304" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">1.00</text>
+<text x="846" y="315" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.50</text>
+
+<text x="866" y="346" text-anchor="end" class="mono" font-size="11" fill="#6B7C98">github.com/alonbaron/claude-skills</text>
 </svg>
