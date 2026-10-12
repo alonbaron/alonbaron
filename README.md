@@ -105,7 +105,7 @@ Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is 
 ## ◢ How I build
 
 <p align="center">
-  <img src="./assets/architecture.svg" alt="Alon's engineering loop: model, enforce, observe, evolve" width="900">
+  <img src="./assets/architecture.svg" alt="Alon's build loop: model, enforce, observe, evolve" width="900">
 </p>
 
 - **Model first.** Start with data, flows, and invariants — not framework choices.
