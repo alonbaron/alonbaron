@@ -28,7 +28,7 @@
 ## ◢ alon-skills — Claude Code skills, measured
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="900" alt="alon-skills card: six Claude Code skills and a build loop, with eval scores with and without the plugin"></a>
+  <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="900" alt="alon-skills card: six Claude Code skills and a build loop, one selected eval case per skill, scored with and without the plugin"></a>
 </p>
 
 **[alon-skills](https://github.com/alonbaron/claude-skills)** is a Claude Code plugin that packages how I build software into six skills and one workflow, and measures them instead of asking you to trust them.
@@ -40,12 +40,12 @@
 | Eval case | With the plugin | Without |
 |---|:---:|:---:|
 | **review-swarm** on a real diff with an N+1 query | **0.90** | 0.40 |
-| **ponytail** asked for a pluggable cache with one caller | **0.80** | 0.30 |
+| **ponytail (vendored)** asked for a pluggable cache with one caller | **0.80** | 0.30 |
 | **ask-the-council** reaching a verdict and handing off the build | **0.83** | 0.17 |
 | **architect** speccing a feature from scratch | **0.83** | 0.67 |
 | **up-to-date** on a branch that was never pushed | **1.00** | 0.62 |
 
-<sub>These are the cases with the clearest uplift. Some cases score the same without the plugin because they test when a skill should stay quiet; the [full table](https://github.com/alonbaron/claude-skills#-evals) has all 19.</sub>
+<sub>One selected eval case per skill — the cases with the clearest uplift. Some cases score the same without the plugin because they test when a skill should stay quiet; the [full table](https://github.com/alonbaron/claude-skills#-evals) has all 19.</sub>
 
 ```text
 /plugin marketplace add alonbaron/claude-skills

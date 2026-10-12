@@ -1,6 +1,6 @@
 <svg width="900" height="384" viewBox="0 0 900 384" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">alon-skills — Claude Code skills, measured</title>
-<desc id="d">Card for alon-skills v3.1.1, a Claude Code plugin with six skills and an unattended build loop. Selected eval cases, scored with and without the plugin: review-swarm 0.90 vs 0.40, ponytail 0.80 vs 0.30, ask-the-council 0.83 vs 0.17, architect 0.83 vs 0.67, up-to-date 1.00 vs 0.62. 18 of 19 eval cases pass at the 0.7 threshold; 120 trigger prompts, no false fires.</desc>
+<desc id="d">Card for alon-skills v3.1.1, a Claude Code plugin with six skills and an unattended build loop. Selected eval case per skill, scored with and without the plugin: review-swarm 0.90 vs 0.40, ponytail (vendored) 0.80 vs 0.30, ask-the-council 0.83 vs 0.17, architect 0.83 vs 0.67, up-to-date 1.00 vs 0.62. 18 of 19 eval cases pass at the 0.7 threshold; 120 trigger prompts, no false fires. ponytail vendored from DietrichGebert/ponytail (MIT).</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="900" y2="384" gradientUnits="userSpaceOnUse">
     <stop stop-color="#F5F9FD"/><stop offset="1" stop-color="#EAF0FA"/>
@@ -68,8 +68,8 @@
   <text x="105" y="271" text-anchor="middle">/prompt-generator</text>
   <rect x="184" y="254" width="100" height="26" rx="7" fill="#FFFFFF" fill-opacity=".8" stroke="#C9D6EA"/>
   <text x="234" y="271" text-anchor="middle">/up-to-date</text>
-  <rect x="292" y="254" width="86" height="26" rx="7" fill="#FFFFFF" fill-opacity=".8" stroke="#C9D6EA"/>
-  <text x="335" y="271" text-anchor="middle">/ponytail</text>
+  <rect x="292" y="254" width="158" height="26" rx="7" fill="#FFFFFF" fill-opacity=".8" stroke="#C9D6EA"/>
+  <text x="371" y="271" text-anchor="middle" font-size="11">/ponytail (vendored)</text>
 </g>
 
 <g class="mono" font-size="11.5">
@@ -79,40 +79,41 @@
 </g>
 
 <rect x="466" y="56" width="400" height="278" rx="14" fill="#FFFFFF" fill-opacity=".88" stroke="#D2DFEE"/>
-<text x="488" y="84" class="mono" font-size="11" letter-spacing="2" fill="#4A5B78">EVAL CASES</text>
+<text x="488" y="80" class="mono" font-size="11" letter-spacing="2" fill="#4A5B78">EVAL CASES</text>
 <g class="mono" font-size="10.5" fill="#5B6B86">
-  <rect x="712" y="76" width="10" height="10" rx="2" fill="url(#bar)"/>
-  <text x="727" y="85">with</text>
-  <rect x="774" y="76" width="10" height="10" rx="2" fill="#B8C4D6"/>
-  <text x="789" y="85">without</text>
+  <rect x="712" y="72" width="10" height="10" rx="2" fill="url(#bar)"/>
+  <text x="727" y="81">with</text>
+  <rect x="774" y="72" width="10" height="10" rx="2" fill="#B8C4D6"/>
+  <text x="789" y="81">without</text>
 </g>
-<line x1="488" y1="98" x2="846" y2="98" stroke="#E2E9F3"/>
+<line x1="488" y1="92" x2="846" y2="92" stroke="#E2E9F3"/>
+<text x="488" y="110" class="sans" font-size="12" fill="#4A5B78">Selected eval case per skill · with / without plugin</text>
 <!-- bar scale: 290px = 1.00 -->
-<text x="488" y="122" class="sans" font-size="13" font-weight="700" fill="#233A57">review-swarm</text>
-<rect class="grow" x="488" y="130" width="261" height="6" rx="3" fill="url(#bar)"/>
-<rect x="488" y="140" width="116" height="4" rx="2" fill="#B8C4D6"/>
-<text x="846" y="136" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">0.90</text>
-<text x="846" y="147" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.40</text>
-<text x="488" y="164" class="sans" font-size="13" font-weight="700" fill="#233A57">ponytail</text>
-<rect class="grow" x="488" y="172" width="232" height="6" rx="3" fill="url(#bar)"/>
-<rect x="488" y="182" width="87" height="4" rx="2" fill="#B8C4D6"/>
-<text x="846" y="178" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">0.80</text>
-<text x="846" y="189" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.30</text>
-<text x="488" y="206" class="sans" font-size="13" font-weight="700" fill="#233A57">ask-the-council</text>
-<rect class="grow" x="488" y="214" width="241" height="6" rx="3" fill="url(#bar)"/>
-<rect x="488" y="224" width="49" height="4" rx="2" fill="#B8C4D6"/>
-<text x="846" y="220" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">0.83</text>
-<text x="846" y="231" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.17</text>
-<text x="488" y="248" class="sans" font-size="13" font-weight="700" fill="#233A57">architect</text>
-<rect class="grow" x="488" y="256" width="241" height="6" rx="3" fill="url(#bar)"/>
-<rect x="488" y="266" width="194" height="4" rx="2" fill="#B8C4D6"/>
-<text x="846" y="262" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">0.83</text>
-<text x="846" y="273" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.67</text>
-<text x="488" y="290" class="sans" font-size="13" font-weight="700" fill="#233A57">up-to-date</text>
-<rect class="grow" x="488" y="298" width="290" height="6" rx="3" fill="url(#bar)"/>
-<rect x="488" y="308" width="180" height="4" rx="2" fill="#B8C4D6"/>
-<text x="846" y="304" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">1.00</text>
-<text x="846" y="315" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.62</text>
+<text x="488" y="132" class="sans" font-size="13" font-weight="700" fill="#233A57">review-swarm</text>
+<rect class="grow" x="488" y="140" width="261" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="150" width="116" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="146" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">0.90</text>
+<text x="846" y="157" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.40</text>
+<text x="488" y="172" class="sans" font-size="13" font-weight="700" fill="#233A57">ponytail (vendored)</text>
+<rect class="grow" x="488" y="180" width="232" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="190" width="87" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="186" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">0.80</text>
+<text x="846" y="197" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.30</text>
+<text x="488" y="212" class="sans" font-size="13" font-weight="700" fill="#233A57">ask-the-council</text>
+<rect class="grow" x="488" y="220" width="241" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="230" width="49" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="226" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">0.83</text>
+<text x="846" y="237" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.17</text>
+<text x="488" y="252" class="sans" font-size="13" font-weight="700" fill="#233A57">architect</text>
+<rect class="grow" x="488" y="260" width="241" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="270" width="194" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="266" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">0.83</text>
+<text x="846" y="277" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.67</text>
+<text x="488" y="292" class="sans" font-size="13" font-weight="700" fill="#233A57">up-to-date</text>
+<rect class="grow" x="488" y="300" width="290" height="6" rx="3" fill="url(#bar)"/>
+<rect x="488" y="310" width="180" height="4" rx="2" fill="#B8C4D6"/>
+<text x="846" y="306" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#233A57">1.00</text>
+<text x="846" y="317" text-anchor="end" class="mono" font-size="10.5" fill="#8A99B2">0.62</text>
 
 <text x="866" y="346" text-anchor="end" class="mono" font-size="11" fill="#6B7C98">github.com/alonbaron/claude-skills</text>
 </svg>
