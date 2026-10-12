@@ -7,7 +7,7 @@
   <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 18/19 passing" src="https://img.shields.io/badge/evals-18%2F19_passing-D97706?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-C026D3?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-4F46E5?style=flat-square&labelColor=0F1E33&logo=github&logoColor=white"></a>&nbsp;
-                                             <a href="https://www.linkedin.com/in/alonbaron/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-alonbaron-0A66C2?style=flat-square&labelColor=0F1E33&logo=linkedin&logoColor=white"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/alonbaron/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-alonbaron-0A66C2?style=flat-square&labelColor=0F1E33&logo=linkedin&logoColor=white"></a>&nbsp;
   <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-059669?style=flat-square&labelColor=0F1E33&logo=gmail&logoColor=white"></a>
 </p>
 
@@ -83,17 +83,17 @@
 
 ## ◢ Work
 
-**RB-Group (Rav-Bariach)** — *AI Enablement &amp; Automation Specialist* · Aug 2026–present
+**RB-Group (Rav-Bariach)** — *AI Enablement &amp; Automation Specialist* · Aug 2026–present<br>
 I lead AI adoption across the company: hands-on enablement sessions with employees, and finding the processes worth automating. Alongside that, I build internal IT automation tooling together with the IT team.
 - I roll out AI tools across the company: setup, access, and integration with the systems teams already use.
 
 `AI adoption` · `automation` · `information systems` · `IT`
 
-**Barzilai Medical Center** — *Student Team Lead · IT, systems &amp; software* · previously
+**Barzilai Medical Center** — *Student Team Lead · IT, Systems &amp; Software* · Feb 2025–Aug 2026<br>
 I led the student team across a live hospital's technology stack — technical support, systems, and software. Built a **shift-scheduling automation** that turned a manual rostering chore into a repeatable system for the team — a small piece of software that quietly gave people their time back.
 <br>`automation` · `scheduling` · `systems` · `IT` · `healthcare`
 
-**Freelance Software Developer** · Jan 2025–present
+**Freelance Software Developer** · Jan 2025–present<br>
 I build and ship production software for real clients end to end: design, build, deploy, hand over. That includes **TenderTrack**, the tender tracker under [Shipped](#-shipped) that a paying customer runs on. Most recent site — **[Gal Baron Insurance](https://www.galb-ins.co.il)**, a Hebrew/RTL site for an independent agent with accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting *(source private — client work)*.
 <br>`Vite` · `EmailJS` · `WhatsApp` · `AWS Amplify` · `SEO / RTL`
 
