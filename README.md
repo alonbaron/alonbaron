@@ -13,7 +13,7 @@
 
 <p align="center">
   <img alt="Role" src="https://img.shields.io/badge/CS_student-Systems_%26_AI_Dev-334A66?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Freelance" src="https://img.shields.io/badge/freelance-web_dev-6D28D9?style=flat-square&labelColor=0F1E33">&nbsp;
+  <img alt="Freelance" src="https://img.shields.io/badge/freelance-software_dev-6D28D9?style=flat-square&labelColor=0F1E33">&nbsp;
   <img alt="Products shipped" src="https://img.shields.io/badge/products_shipped-3-0E7490?style=flat-square&labelColor=0F1E33">&nbsp;
   <img alt="Open source" src="https://img.shields.io/badge/open_source-MIT-059669?style=flat-square&labelColor=0F1E33">
 </p>
@@ -83,17 +83,22 @@
 
 ## ◢ Work
 
-**Rav-Bariach (08) Industries** — *Student Employee · Information Systems &amp; AI* · current
+**RB-Group (Rav-Bariach)** — *AI Enablement &amp; Automation Specialist* · Aug 2026–present
 I lead AI adoption across the company: hands-on enablement sessions with employees, and finding the processes worth automating. Alongside that, I build internal IT automation tooling together with the IT team.
-<br>`AI adoption` · `automation` · `information systems` · `IT`
+- I roll out AI tools across the company: setup, access, and integration with the systems teams already use.
+
+`AI adoption` · `automation` · `information systems` · `IT`
 
 **Barzilai Medical Center** — *Student Team Lead · IT, systems &amp; software* · previously
 I led the student team across a live hospital's technology stack — technical support, systems, and software. Built a **shift-scheduling automation** that turned a manual rostering chore into a repeatable system for the team — a small piece of software that quietly gave people their time back.
 <br>`automation` · `scheduling` · `systems` · `IT` · `healthcare`
 
-**Freelance — Web Development**
-I build and ship production sites for real clients end to end: design, build, deploy, hand over. Most recent — **[Gal Baron Insurance](https://www.galb-ins.co.il)**, a Hebrew/RTL site for an independent agent with accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting *(source private — client work)*.
+**Freelance Software Developer** · Jan 2025–present
+I build and ship production software for real clients end to end: design, build, deploy, hand over. That includes **TenderTrack**, the tender tracker under [Shipped](#-shipped) that a paying customer runs on. Most recent site — **[Gal Baron Insurance](https://www.galb-ins.co.il)**, a Hebrew/RTL site for an independent agent with accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting *(source private — client work)*.
 <br>`Vite` · `EmailJS` · `WhatsApp` · `AWS Amplify` · `SEO / RTL`
+
+Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is delivered, and the client has paused the project. *(client work)*
+<br>`Next.js` · `TypeScript` · `Python` · `FastAPI`
 
 ---
 
