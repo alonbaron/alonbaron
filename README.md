@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Alon Baron — CS student, Systems &amp; AI Dev" width="900">
+  <img src="./assets/hero.svg" alt="Alon Baron — Software Developer · CS student · heading toward DevOps" width="900">
 </p>
 
 <p align="center">
@@ -12,14 +12,14 @@
 </p>
 
 <p align="center">
-  <img alt="Role" src="https://img.shields.io/badge/CS_student-Systems_%26_AI_Dev-334A66?style=flat-square&labelColor=0F1E33">&nbsp;
+  <img alt="Role" src="https://img.shields.io/badge/Software_Developer-CS_student_%C2%B7_heading_toward_DevOps-334A66?style=flat-square&labelColor=0F1E33">&nbsp;
   <img alt="Freelance" src="https://img.shields.io/badge/freelance-software_dev-6D28D9?style=flat-square&labelColor=0F1E33">&nbsp;
   <img alt="Products shipped" src="https://img.shields.io/badge/products_shipped-3-0E7490?style=flat-square&labelColor=0F1E33">&nbsp;
   <img alt="Open source" src="https://img.shields.io/badge/open_source-MIT-059669?style=flat-square&labelColor=0F1E33">
 </p>
 
 <p align="center">
-  <b>CS student · Systems &amp; AI Dev.</b><br>
+  <b>Software Developer · CS student · heading toward DevOps.</b><br>
   <sub>I build software that gets used by people who aren't me — a classroom platform, a social network, a tender tracker a paying customer runs on — and open-source developer tooling that I measure instead of just trusting. I care less about which framework and more about how the pieces hold together when the load, the edge cases, and the deadlines arrive.</sub>
 </p>
 
@@ -140,6 +140,6 @@ Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is 
 ---
 
 <p align="center">
-  <sub>CS student · Systems &amp; AI Dev · shipping real software for real users.</sub><br>
+  <sub>Software Developer · CS student · heading toward DevOps · shipping real software for real users.</sub><br>
   <b>Build the model. Define the rules. Then write the code.</b>
 </p>
