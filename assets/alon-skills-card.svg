@@ -1,6 +1,6 @@
 <svg width="900" height="384" viewBox="0 0 900 384" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">alon-skills — Claude Code skills, measured</title>
-<desc id="d">Card for alon-skills v3.0.2, a Claude Code plugin with six skills and an unattended build loop. Selected eval cases, scored with and without the plugin: review-swarm 0.90 vs 0.40, ponytail 1.00 vs 0.40, ask-the-council 1.00 vs 0.17, architect 1.00 vs 0.67, up-to-date 1.00 vs 0.50. 19 of 19 eval cases pass; 120 trigger prompts, no false fires.</desc>
+<desc id="d">Card for alon-skills v3.1.1, a Claude Code plugin with six skills and an unattended build loop. Selected eval cases, scored with and without the plugin: review-swarm 0.90 vs 0.40, ponytail 1.00 vs 0.40, ask-the-council 1.00 vs 0.17, architect 1.00 vs 0.67, up-to-date 1.00 vs 0.50. 18 of 19 eval cases pass at the 0.7 threshold; 120 trigger prompts, no false fires.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="900" y2="384" gradientUnits="userSpaceOnUse">
     <stop stop-color="#F5F9FD"/><stop offset="1" stop-color="#EAF0FA"/>
@@ -49,7 +49,7 @@
   <circle class="ring" cx="34" cy="40" r="4" fill="#059669"/>
   <circle class="dot" cx="34" cy="40" r="4" fill="#059669"/>
   <text x="46" y="44" fill="#047857" font-weight="bold" letter-spacing="1.5">OPEN SOURCE</text>
-  <text x="866" y="44" text-anchor="end" fill="#4F46E5" letter-spacing="1">v3.0.2 · MIT</text>
+  <text x="866" y="44" text-anchor="end" fill="#4F46E5" letter-spacing="1">v3.1.1 · MIT</text>
 </g>
 
 <text x="34" y="80" class="mono" font-size="11" letter-spacing="3" fill="#4F46E5">CLAUDE CODE PLUGIN</text>
@@ -74,7 +74,7 @@
 
 <g class="mono" font-size="11.5">
   <circle cx="38" cy="342" r="4" fill="#059669"/>
-  <text x="48" y="346" fill="#047857" font-weight="bold">19/19 evals passing</text>
+  <text x="48" y="346" fill="#047857" font-weight="bold">18/19 evals passing</text>
   <text x="196" y="346" fill="#4A5B78"><tspan fill="#AFC3DD">· </tspan>120 trigger prompts<tspan fill="#AFC3DD"> · </tspan>0 false fires</text>
 </g>
 

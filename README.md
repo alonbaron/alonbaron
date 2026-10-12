@@ -1,25 +1,25 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Alon Baron — CS student, Systems &amp; AI Dev" width="900">
+  <img src="./assets/hero.svg" alt="Alon Baron — Software Developer · CS student · heading toward DevOps" width="900">
 </p>
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.0.2" src="https://img.shields.io/badge/alon--skills-v3.0.2-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
-  <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 19/19 passing" src="https://img.shields.io/badge/evals-19%2F19_passing-16A34A?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.1.1" src="https://img.shields.io/badge/alon--skills-v3.1.1-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 18/19 passing" src="https://img.shields.io/badge/evals-18%2F19_passing-D97706?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-C026D3?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-4F46E5?style=flat-square&labelColor=0F1E33&logo=github&logoColor=white"></a>&nbsp;
-                                             <a href="https://www.linkedin.com/in/alonbaron/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-alonbaron-0A66C2?style=flat-square&labelColor=0F1E33&logo=linkedin&logoColor=white"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/alonbaron/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-alonbaron-0A66C2?style=flat-square&labelColor=0F1E33&logo=linkedin&logoColor=white"></a>&nbsp;
   <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-059669?style=flat-square&labelColor=0F1E33&logo=gmail&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <img alt="Role" src="https://img.shields.io/badge/CS_student-Systems_%26_AI_Dev-334A66?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Freelance" src="https://img.shields.io/badge/freelance-web_dev-6D28D9?style=flat-square&labelColor=0F1E33">&nbsp;
+  <img alt="Role" src="https://img.shields.io/badge/Software_Developer-CS_student_%C2%B7_heading_toward_DevOps-334A66?style=flat-square&labelColor=0F1E33">&nbsp;
+  <img alt="Freelance" src="https://img.shields.io/badge/freelance-software_dev-6D28D9?style=flat-square&labelColor=0F1E33">&nbsp;
   <img alt="Products shipped" src="https://img.shields.io/badge/products_shipped-3-0E7490?style=flat-square&labelColor=0F1E33">&nbsp;
   <img alt="Open source" src="https://img.shields.io/badge/open_source-MIT-059669?style=flat-square&labelColor=0F1E33">
 </p>
 
 <p align="center">
-  <b>CS student · Systems &amp; AI Dev.</b><br>
+  <b>Software Developer · CS student · heading toward DevOps.</b><br>
   <sub>I build software that gets used by people who aren't me — a classroom platform, a social network, a tender tracker a paying customer runs on — and open-source developer tooling that I measure instead of just trusting. I care less about which framework and more about how the pieces hold together when the load, the edge cases, and the deadlines arrive.</sub>
 </p>
 
@@ -35,7 +35,7 @@
 
 - **Six skills.** **architect** writes the design docs before the code. **review-swarm** runs six parallel specialist reviewers, then verifiers that try to refute each finding, and returns a ranked `file:line` report. **ask-the-council** seats advisors who are made to disagree, then commits to one recommendation with the tradeoff named. **prompt-generator** turns a vague ask into a rigorous agent prompt, and **up-to-date** runs a read-only repo preflight before work starts. **ponytail** keeps solutions minimal; it's vendored from [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (MIT). Each skill fires on the shape of the task and has a written boundary for when to stay quiet.
 - **Build loop.** `/alon-skills:build-loop` works through a `TODO_WORKFLOW.md` one row at a time without supervision: plan → spec → build → independent review lenses → fix → close. Every stage is a fresh subagent on the model tier that fits the job, and state lives in the repo, not the chat. Measured once on a throwaway repo, it built, reviewed and closed one row in about four minutes for $1.75.
-- **Evals.** A `claude plugin eval` suite runs every case with and without the plugin. All 19 cases pass. Across 120 trigger prompts, each skill fired on 80–100% of the prompts meant for it and never on the others.
+- **Evals.** A `claude plugin eval` suite runs every case with and without the plugin. 18 of 19 cases pass at the 0.7 threshold. Across 120 trigger prompts, each skill fired on 80–100% of the prompts meant for it and never on the others.
 
 | Eval case | With the plugin | Without |
 |---|:---:|:---:|
@@ -83,24 +83,29 @@
 
 ## ◢ Work
 
-**Rav-Bariach (08) Industries** — *Student Employee · Information Systems &amp; AI* · current
+**RB-Group (Rav-Bariach)** — *AI Enablement &amp; Automation Specialist* · Aug 2026–present<br>
 I lead AI adoption across the company: hands-on enablement sessions with employees, and finding the processes worth automating. Alongside that, I build internal IT automation tooling together with the IT team.
-<br>`AI adoption` · `automation` · `information systems` · `IT`
+- I roll out AI tools across the company: setup, access, and integration with the systems teams already use.
 
-**Barzilai Medical Center** — *Student Team Lead · IT, systems &amp; software* · previously
+`AI adoption` · `automation` · `information systems` · `IT`
+
+**Barzilai Medical Center** — *Student Team Lead · IT, Systems &amp; Software* · Feb 2025–Aug 2026<br>
 I led the student team across a live hospital's technology stack — technical support, systems, and software. Built a **shift-scheduling automation** that turned a manual rostering chore into a repeatable system for the team — a small piece of software that quietly gave people their time back.
 <br>`automation` · `scheduling` · `systems` · `IT` · `healthcare`
 
-**Freelance — Web Development**
-I build and ship production sites for real clients end to end: design, build, deploy, hand over. Most recent — **[Gal Baron Insurance](https://www.galb-ins.co.il)**, a Hebrew/RTL site for an independent agent with accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting *(source private — client work)*.
+**Freelance Software Developer** · Jan 2025–present<br>
+I build and ship production software for real clients end to end: design, build, deploy, hand over. That includes **TenderTrack**, the tender tracker under [Shipped](#-shipped) that a paying customer runs on. Most recent site — **[Gal Baron Insurance](https://www.galb-ins.co.il)**, a Hebrew/RTL site for an independent agent with accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting *(source private — client work)*.
 <br>`Vite` · `EmailJS` · `WhatsApp` · `AWS Amplify` · `SEO / RTL`
+
+Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is delivered, and the client has paused the project. *(client work)*
+<br>`Next.js` · `TypeScript` · `Python` · `FastAPI`
 
 ---
 
 ## ◢ How I build
 
 <p align="center">
-  <img src="./assets/architecture.svg" alt="Alon's engineering loop: model, enforce, observe, evolve" width="900">
+  <img src="./assets/architecture.svg" alt="Alon's build loop: model, enforce, observe, evolve" width="900">
 </p>
 
 - **Model first.** Start with data, flows, and invariants — not framework choices.
@@ -135,6 +140,6 @@ I build and ship production sites for real clients end to end: design, build, de
 ---
 
 <p align="center">
-  <sub>CS student · Systems &amp; AI Dev · shipping real software for real users.</sub><br>
+  <sub>Software Developer · CS student · heading toward DevOps · shipping real software for real users.</sub><br>
   <b>Build the model. Define the rules. Then write the code.</b>
 </p>
