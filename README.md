@@ -40,10 +40,10 @@
 | Eval case | With the plugin | Without |
 |---|:---:|:---:|
 | **review-swarm** on a real diff with an N+1 query | **0.90** | 0.40 |
-| **ponytail** asked for a pluggable cache with one caller | **1.00** | 0.40 |
-| **ask-the-council** reaching a verdict and handing off the build | **1.00** | 0.17 |
-| **architect** speccing a feature from scratch | **1.00** | 0.67 |
-| **up-to-date** on a branch that was never pushed | **1.00** | 0.50 |
+| **ponytail** asked for a pluggable cache with one caller | **0.80** | 0.30 |
+| **ask-the-council** reaching a verdict and handing off the build | **0.83** | 0.17 |
+| **architect** speccing a feature from scratch | **0.83** | 0.67 |
+| **up-to-date** on a branch that was never pushed | **1.00** | 0.62 |
 
 <sub>These are the cases with the clearest uplift. Some cases score the same without the plugin because they test when a skill should stay quiet; the [full table](https://github.com/alonbaron/claude-skills#-evals) has all 19.</sub>
 
