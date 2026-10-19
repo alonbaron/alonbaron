@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.2.1" src="https://img.shields.io/badge/alon--skills-v3.2.1-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.2.2" src="https://img.shields.io/badge/alon--skills-v3.2.2-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 19/19 passing" src="https://img.shields.io/badge/evals-19%2F19_passing-059669?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-C026D3?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-4F46E5?style=flat-square&labelColor=0F1E33&logo=github&logoColor=white"></a>&nbsp;
