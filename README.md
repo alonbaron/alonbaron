@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.1.1" src="https://img.shields.io/badge/alon--skills-v3.1.1-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
-  <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 18/19 passing" src="https://img.shields.io/badge/evals-18%2F19_passing-D97706?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.2.1" src="https://img.shields.io/badge/alon--skills-v3.2.1-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 19/19 passing" src="https://img.shields.io/badge/evals-19%2F19_passing-059669?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-C026D3?style=flat-square&labelColor=0F1E33"></a>&nbsp;
   <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-4F46E5?style=flat-square&labelColor=0F1E33&logo=github&logoColor=white"></a>&nbsp;
   <a href="https://www.linkedin.com/in/alonbaron/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-alonbaron-0A66C2?style=flat-square&labelColor=0F1E33&logo=linkedin&logoColor=white"></a>&nbsp;
@@ -35,15 +35,15 @@
 
 - **Six skills.** **architect** writes the design docs before the code. **review-swarm** runs six parallel specialist reviewers, then verifiers that try to refute each finding, and returns a ranked `file:line` report. **ask-the-council** seats advisors who are made to disagree, then commits to one recommendation with the tradeoff named. **prompt-generator** turns a vague ask into a rigorous agent prompt, and **up-to-date** runs a read-only repo preflight before work starts. **ponytail** keeps solutions minimal; it's vendored from [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (MIT). Each skill fires on the shape of the task and has a written boundary for when to stay quiet.
 - **Build loop.** `/alon-skills:build-loop` works through a `TODO_WORKFLOW.md` one row at a time without supervision: plan → spec → build → independent review lenses → fix → close. Every stage is a fresh subagent on the model tier that fits the job, and state lives in the repo, not the chat. Measured once on a throwaway repo, it built, reviewed and closed one row in about four minutes for $1.75.
-- **Evals.** A `claude plugin eval` suite runs every case with and without the plugin. 18 of 19 cases pass at the 0.7 threshold. Across 120 trigger prompts, each skill fired on 80–100% of the prompts meant for it and never on the others.
+- **Evals.** A `claude plugin eval` suite runs every case with and without the plugin. All 19 cases pass at the 0.7 threshold, and every release links the CI runs behind its numbers. Across 120 trigger prompts, each skill fired on 75–100% of the runs meant for it and never on the others.
 
 | Eval case | With the plugin | Without |
 |---|:---:|:---:|
-| **review-swarm** on a real diff with an N+1 query | **0.90** | 0.40 |
-| **ponytail (vendored)** asked for a pluggable cache with one caller | **0.80** | 0.30 |
-| **ask-the-council** reaching a verdict and handing off the build | **0.83** | 0.17 |
-| **architect** speccing a feature from scratch | **0.83** | 0.67 |
-| **up-to-date** on a branch that was never pushed | **1.00** | 0.62 |
+| **review-swarm** on a real diff with an N+1 query | **1.00** | 0.40 |
+| **ponytail (vendored)** asked for a pluggable cache with one caller | **0.90** | 0.50 |
+| **ask-the-council** reaching a verdict and handing off the build | **1.00** | 0.33 |
+| **architect** speccing a feature from scratch | **1.00** | 0.67 |
+| **up-to-date** on a branch that was never pushed | **0.88** | 0.62 |
 
 <sub>One selected eval case per skill — the cases with the clearest uplift. Some cases score the same without the plugin because they test when a skill should stay quiet; the [full table](https://github.com/alonbaron/claude-skills#-evals) has all 19.</sub>
 
