@@ -1,6 +1,6 @@
 <svg width="900" height="390" viewBox="0 0 900 390" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">Alon Baron — Software Developer · CS student · heading toward DevOps</title>
-<desc id="d">Light-mode editorial architecture banner for Alon Baron: Software Developer, CS student, heading toward DevOps. Features a frosted glass hero card on #F6F7FB alabaster, 3D cybernetic porcelain sculpture, and three metric bento cards (3 products shipped, alon-skills v3.2.2 + workflow-watch 0.4.1, and 19/19 passing evals on Fable 5.1).</desc>
+<desc id="d">Light-mode editorial architecture banner for Alon Baron: Software Developer, CS student, heading toward DevOps. Features a frosted glass hero card on #F6F7FB alabaster, 3D cybernetic porcelain sculpture, and three metric bento cards (Medusa Dynamics + TenderTrack, NUMRA, PawPals; alon-skills v3.2.2 + workflow-watch 0.4.1; and 19/19 passing evals on Fable 5.1).</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="900" y2="390" gradientUnits="userSpaceOnUse">
     <stop offset="0" stop-color="#F6F7FB"/>
@@ -110,10 +110,11 @@
   <g transform="translate(28 278)" filter="url(#glassShadow)">
     <rect width="268" height="86" rx="18" fill="url(#glass)" stroke="#FFFFFF" stroke-width="1.5"/>
     <rect x=".75" y=".75" width="266.5" height="84.5" rx="17.25" fill="none" stroke="#125190" stroke-opacity=".12"/>
-    <text x="22" y="26" class="mono" font-size="10.5" font-weight="700" fill="#545A75">01 · PRODUCTION</text>
-    <circle cx="244" cy="22" r="4" fill="#125190"/>
-    <text x="22" y="52" class="sans" font-size="20" font-weight="800" fill="#0E1024">3 Products Shipped</text>
-    <text x="22" y="71" class="mono" font-size="11" fill="#545A75">NUMRA · PawPals · TenderTrack</text>
+    <text x="22" y="26" class="mono" font-size="10.5" font-weight="700" fill="#545A75">01 · SYSTEMS &amp; STUDIO</text>
+    <rect x="208" y="13" width="42" height="18" rx="9" fill="#EEF3FA" stroke="#8DABCA" stroke-opacity=".45"/>
+    <text x="229" y="25.5" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#125190">LIVE</text>
+    <text x="22" y="52" class="sans" font-size="20" font-weight="800" fill="#0E1024">Medusa <tspan fill="#125190">Dynamics</tspan></text>
+    <text x="22" y="71" class="mono" font-size="11" fill="#545A75">TenderTrack · NUMRA · PawPals</text>
   </g>
 
   <!-- Bento 2 -->

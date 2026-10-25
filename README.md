@@ -14,8 +14,8 @@
 
 <p align="center">
   <img alt="Role" src="https://img.shields.io/badge/Software_Developer-CS_student_%C2%B7_heading_toward_DevOps-125190?style=flat-square&labelColor=0E1024">&nbsp;
-  <img alt="Freelance" src="https://img.shields.io/badge/freelance-software_dev-4174A6?style=flat-square&labelColor=0E1024">&nbsp;
-  <img alt="Products shipped" src="https://img.shields.io/badge/products_shipped-3-125190?style=flat-square&labelColor=0E1024">&nbsp;
+  <a href="https://medusadynamics.com"><img alt="Medusa Dynamics — medusadynamics.com" src="https://img.shields.io/badge/Medusa_Dynamics-medusadynamics.com-125190?style=flat-square&labelColor=0E1024"></a>&nbsp;
+  <img alt="Shipped — production & client" src="https://img.shields.io/badge/shipped-production_%26_client-4174A6?style=flat-square&labelColor=0E1024">&nbsp;
   <img alt="Open source" src="https://img.shields.io/badge/open_source-MIT-067647?style=flat-square&labelColor=0E1024">
 </p>
 
@@ -96,12 +96,12 @@ I lead AI adoption across the company: hands-on enablement sessions with employe
 I led the student team across a live hospital's technology stack — technical support, systems, and software. Built a **shift-scheduling automation** that turned a manual rostering chore into a repeatable system for the team — a small piece of software that quietly gave people their time back.
 <br>`automation` · `scheduling` · `systems` · `IT` · `healthcare`
 
-**Freelance Software Developer** · Jan 2025–present<br>
-I build and ship production software for real clients end to end: design, build, deploy, hand over. That includes **TenderTrack**, the tender tracker under [Shipped](#-shipped) that a paying customer runs on. Most recent site — **[Gal Baron Insurance](https://www.galb-ins.co.il)**, a Hebrew/RTL site for an independent agent with accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting *(source private — client work)*.
-<br>`Vite` · `EmailJS` · `WhatsApp` · `AWS Amplify` · `SEO / RTL`
+**[Medusa Dynamics](https://medusadynamics.com)** — *Founder &amp; Software Developer* · Jan 2025–present<br>
+My software house where I build and ship production websites, custom systems, and AI automations for real clients end to end: design, build, deploy, hand over.
+- **Systems &amp; custom builds:** **TenderTrack** (the grounded AI tender tracker under [Shipped](#-shipped) that a paying customer runs on) and a **luxury jewelry configurator &amp; virtual try-on** (`Next.js` · `TypeScript` · `Python` · `FastAPI` — first phase delivered; client paused).
+- **Live client sites:** **[Gal Baron Insurance](https://www.galb-ins.co.il)** (Hebrew/RTL insurance agency site with accessible service discovery, lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting) and **[Karolina Clinic](https://www.karolinaclinic.co.il)** (Hebrew/RTL clinic brand site and booking funnel) — *(client work, source private)*.
 
-Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is delivered, and the client has paused the project. *(client work)*
-<br>`Next.js` · `TypeScript` · `Python` · `FastAPI`
+`Next.js 16` · `React 19` · `TypeScript` · `Tailwind v4` · `GSAP` · `next-intl` · `AWS SES` · `Vite` · `AWS Amplify` · `SEO / RTL`
 
 ---
 
