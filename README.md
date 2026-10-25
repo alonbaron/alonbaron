@@ -1,22 +1,22 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Alon Baron — Software Developer · CS student · heading toward DevOps" width="900">
+  <img src="./assets/hero.svg" alt="Alon Baron — Software Developer · CS student · heading toward DevOps" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.2.2" src="https://img.shields.io/badge/alon--skills-v3.2.2-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
-  <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 19/19 passing" src="https://img.shields.io/badge/evals-19%2F19_passing-059669?style=flat-square&labelColor=0F1E33"></a>&nbsp;
-  <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-C026D3?style=flat-square&labelColor=0F1E33"></a>&nbsp;
-  <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-4F46E5?style=flat-square&labelColor=0F1E33&logo=github&logoColor=white"></a>&nbsp;
-  <a href="https://www.linkedin.com/in/alonbaron/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-alonbaron-0A66C2?style=flat-square&labelColor=0F1E33&logo=linkedin&logoColor=white"></a>&nbsp;
-  <a href="https://x.com/alonbarondev"><img alt="X" src="https://img.shields.io/badge/X-alonbarondev-000000?style=flat-square&labelColor=0F1E33&logo=x&logoColor=white"></a>&nbsp;
-  <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-059669?style=flat-square&labelColor=0F1E33&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.2.2" src="https://img.shields.io/badge/alon--skills-v3.2.2-7C3AED?style=flat-square&labelColor=0A1024"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 19/19 passing" src="https://img.shields.io/badge/evals-19%2F19_passing-059669?style=flat-square&labelColor=0A1024"></a>&nbsp;
+  <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-C026D3?style=flat-square&labelColor=0A1024"></a>&nbsp;
+  <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-125190?style=flat-square&labelColor=0A1024&logo=github&logoColor=white"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/alonbaron/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-alonbaron-0A66C2?style=flat-square&labelColor=0A1024&logo=linkedin&logoColor=white"></a>&nbsp;
+  <a href="https://x.com/alonbarondev"><img alt="X" src="https://img.shields.io/badge/X-alonbarondev-000000?style=flat-square&labelColor=0A1024&logo=x&logoColor=white"></a>&nbsp;
+  <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-059669?style=flat-square&labelColor=0A1024&logo=gmail&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <img alt="Role" src="https://img.shields.io/badge/Software_Developer-CS_student_%C2%B7_heading_toward_DevOps-334A66?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Freelance" src="https://img.shields.io/badge/freelance-software_dev-6D28D9?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Products shipped" src="https://img.shields.io/badge/products_shipped-3-0E7490?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Open source" src="https://img.shields.io/badge/open_source-MIT-059669?style=flat-square&labelColor=0F1E33">
+  <img alt="Role" src="https://img.shields.io/badge/Software_Developer-CS_student_%C2%B7_heading_toward_DevOps-125190?style=flat-square&labelColor=0A1024">&nbsp;
+  <img alt="Freelance" src="https://img.shields.io/badge/freelance-software_dev-4F46E5?style=flat-square&labelColor=0A1024">&nbsp;
+  <img alt="Products shipped" src="https://img.shields.io/badge/products_shipped-3-0284C7?style=flat-square&labelColor=0A1024">&nbsp;
+  <img alt="Open source" src="https://img.shields.io/badge/open_source-MIT-059669?style=flat-square&labelColor=0A1024">
 </p>
 
 <p align="center">
@@ -24,12 +24,12 @@
   <sub>I build software that gets used by people who aren't me — a classroom platform, a social network, a tender tracker a paying customer runs on — and open-source developer tooling that I measure instead of just trusting. I care less about which framework and more about how the pieces hold together when the load, the edge cases, and the deadlines arrive.</sub>
 </p>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
 ## ◢ claude-skills — two Claude Code plugins
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="900" alt="alon-skills card: six Claude Code skills and a build loop, one selected eval case per skill, scored with and without the plugin"></a>
+  <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="100%" alt="alon-skills card: six Claude Code skills and a build loop, one selected eval case per skill, scored with and without the plugin"></a>
 </p>
 
 **[claude-skills](https://github.com/alonbaron/claude-skills)** is a Claude Code plugin marketplace (MIT) with two plugins. **alon-skills** packages how I build software into six skills and one workflow, measured with and without the plugin. **workflow-watch 0.4.1** is a live tracker in a side pane beside the chat. Both work in the Claude Code CLI and the VS Code extension, tested on macOS and Windows.
@@ -40,7 +40,7 @@
 - **Evals.** 19 behavioral cases in a `claude plugin eval` suite, each run with and without the plugin. All 19 pass at the 0.7 threshold on Fable 5.1. Across 120 trigger prompts, each skill fired on 75 to 100% of the runs meant for it and never on the ones meant for another skill.
 
 | Eval case | With the plugin | Without |
-|---|:---:|:---:|
+|:---|:---:|:---:|
 | **review-swarm** on a real diff with an N+1 query | **1.00** | 0.40 |
 | **ponytail (vendored)** asked for a pluggable cache with one caller | **0.90** | 0.50 |
 | **ask-the-council** reaching a verdict and handing off the build | **1.00** | 0.33 |
@@ -56,7 +56,7 @@
 ```
 `Claude Code` · `agentic workflows` · `evals` · `MIT` · **[Source & releases →](https://github.com/alonbaron/claude-skills)**
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
 ## ◢ Shipped
 
@@ -79,10 +79,14 @@
 **PawPals** is a full-stack social network — user and dog profiles, posts, follows, reactions, image uploads, and playdate scheduling. It handles authentication, relational modeling, ownership rules, pagination, the race conditions of concurrent writes, and real production error handling. **[Source →](https://github.com/alonbaron/dogsocial)**
 <br>`React` · `Spring Boot` · `MySQL` · `JWT` · `Railway` · `Vercel`
 
+<p align="center">
+  <img src="./assets/tendertrack-card.svg" width="100%" alt="">
+</p>
+
 **TenderTrack** is the one still running. It watches 31 Israeli public bodies for new tenders and warns about deadlines. A grounded Gemini model scans them nightly. Ask a model to *find* tenders and it will occasionally invent a convincing one, so every new candidate faces a second independent grounded check before it's allowed into the database. Each body gets its own request rather than being batched, since batching splits the model's attention and costs recall. The Gemini key never leaves the Worker, and a scan that partly failed says so in red instead of quietly reporting success. *(Client product — source private.)*
 <br>`Cloudflare Workers` · `D1` · `Gemini` · `Hebrew / RTL`
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
 ## ◢ Work
 
@@ -103,12 +107,12 @@ I build and ship production software for real clients end to end: design, build,
 Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is delivered, and the client has paused the project. *(client work)*
 <br>`Next.js` · `TypeScript` · `Python` · `FastAPI`
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
 ## ◢ How I build
 
 <p align="center">
-  <img src="./assets/architecture.svg" alt="Alon's build loop: model, enforce, observe, evolve" width="900">
+  <img src="./assets/architecture.svg" alt="Alon's build loop: model, enforce, observe, evolve" width="100%">
 </p>
 
 - **Model first.** Start with data, flows, and invariants — not framework choices.
@@ -117,7 +121,7 @@ Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is 
 - **Use AI to move fast,** keep the engineering judgment human.
 - **Ship small, reversible changes** over impressive rewrites.
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
 ## ◢ More open source
 
@@ -127,12 +131,12 @@ Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is 
 **[discord-music-bot](https://github.com/alonbaron/discord-music-bot)** is a self-hosted Discord music bot — YouTube streaming, slash commands, per-server queues, cut-in playback, auto-disconnect — plus a complete walkthrough for running it **24/7 free on Oracle Cloud**. Errors surface in Discord instead of failing silently.
 <br>`Python` · `discord.py` · `Oracle Cloud` · `MIT`
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
 ## ◢ Other systems &amp; experiments
 
 | Project | What it explores |
-|---|---|
+|:---|:---|
 | **Shift Manager** *(private)* | Multi-tenant SaaS shift manager, built docs-before-code: the full design system (source of truth → roadmap → phased tasks) landed before implementation. Finished; source kept private — `Next.js` · `TypeScript` · `PostgreSQL + RLS` · `AWS`. |
 | **[Dining Philosophers](https://github.com/alonbaron/DiningPhilosophers)** | Concurrency visualizer using global lock ordering and `ReentrantLock` to kill deadlock and races. |
 | **[Mortal Madmach](https://github.com/alonbaron/MortalMadmachGame)** | A Java Swing arena game — AI behavior, combat state, custom art, audio, rounds, power-ups. |
@@ -140,7 +144,7 @@ Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is 
 | **[Connect Four](https://github.com/alonbaron/connect4)** | Configurable React game — local/AI modes, timers, undo, animated state transitions. |
 | **[ID Validator &amp; Wordle](https://github.com/alonbaron/IDChecker_WordleGame)** | Checksum validation + a two-pass repeated-letter algorithm for correct Wordle feedback. |
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""></p>
 
 <p align="center">
   <sub>Software Developer · CS student · heading toward DevOps · shipping real software for real users.</sub><br>

@@ -1,82 +1,103 @@
-<svg width="445" height="275" viewBox="0 0 445 275" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<svg width="445" height="285" viewBox="0 0 445 285" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">PawPals — a social network for dog owners</title>
-<desc id="d">A blueprint-style product card for PawPals, marked shipped and currently offline. PawPals is a full-stack social network for dog owners with profiles, posts, follows, reactions and playdates, built with React, Spring Boot, MySQL, JWT, Railway and Vercel.</desc>
+<desc id="d">Dark telemetry product card for PawPals, marked shipped and offline. PawPals is a full-stack social network for dog owners with user and dog profiles, posts, follows, reactions, image uploads and playdate scheduling, built with React, Spring Boot, MySQL, JWT, Railway and Vercel.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="445" y2="275" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FBF7FD"/><stop offset="1" stop-color="#F3EDFA"/>
+  <linearGradient id="bg" x1="0" y1="0" x2="445" y2="285" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#050814"/>
+    <stop offset=".55" stop-color="#0B0F26"/>
+    <stop offset="1" stop-color="#120E29"/>
   </linearGradient>
-  <linearGradient id="nm" x1="30" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#7C3AED"/><stop offset=".55" stop-color="#C026D3"/><stop offset="1" stop-color="#DB2777"/>
-  </linearGradient>
-  <radialGradient id="gl" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 30) scale(220 180)">
-    <stop stop-color="#7C3AED" stop-opacity=".12"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+  <radialGradient id="gl" cx="350" cy="60" r="260" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#A855F7" stop-opacity=".36"/>
+    <stop offset=".5" stop-color="#EC4899" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
   </radialGradient>
-  <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
-    <path d="M26 0H0V26" fill="none" stroke="#D9CBEC" stroke-width=".6" stroke-opacity=".5"/>
+  <linearGradient id="nm" x1="28" y1="80" x2="260" y2="130" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".45" stop-color="#E9D5FF"/>
+    <stop offset="1" stop-color="#F472B6"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A855F7" stop-opacity=".6"/>
+    <stop offset=".5" stop-color="#4174A6" stop-opacity=".25"/>
+    <stop offset="1" stop-color="#EC4899" stop-opacity=".6"/>
+  </linearGradient>
+  <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#C4B5FD" fill-opacity=".15"/>
   </pattern>
-  <filter id="gw" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.2"/></filter>
-  <clipPath id="card"><rect x="6" y="6" width="433" height="263" rx="16"/></clipPath>
+  <filter id="gw" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="card"><rect width="445" height="285" rx="18"/></clipPath>
   <style><![CDATA[
-    .mono{font-family:ui-monospace,'Cascadia Code','Segoe UI Mono',Consolas,monospace}
-    .sans{font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif}
-    .nmk{font-family:'Segoe UI',system-ui,Roboto,Arial,sans-serif;font-weight:800;font-size:46px;letter-spacing:.5px}
-    .dot{animation:p 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-    .ring{animation:r 1.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
-    .heart{animation:beat 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-    .e1{animation:flow 2.6s ease-in-out infinite}
-    .e2{animation:flow 2.6s ease-in-out .5s infinite}
-    .e3{animation:flow 2.6s ease-in-out 1s infinite}
-    .e4{animation:flow 2.6s ease-in-out 1.5s infinite}
-    @keyframes p{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.7)}}
-    @keyframes r{0%{opacity:.55;transform:scale(.7)}75%,100%{opacity:0;transform:scale(2.8)}}
-    @keyframes beat{0%,100%{transform:scale(1)}14%{transform:scale(1.16)}28%{transform:scale(1)}}
-    @keyframes flow{0%,100%{stroke-opacity:.25}50%{stroke-opacity:.95}}
-    @media (prefers-reduced-motion:reduce){.dot,.ring,.heart,.e1,.e2,.e3,.e4{animation:none}.ring{opacity:0}}
+    .mono { font-family: ui-monospace, 'Cascadia Code', 'SFMono-Regular', Menlo, Consolas, monospace; }
+    .sans { font-family: 'Manrope', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .nmk { font-family: 'Manrope', 'Inter', 'Segoe UI', system-ui, sans-serif; font-weight: 900; font-size: 44px; letter-spacing: .5px; }
+    .flow { stroke-dasharray: 6 60; animation: f 2.4s linear infinite; }
+    .pulse { animation: beat 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes f { to { stroke-dashoffset: -66; } }
+    @keyframes beat { 0%,100% { transform: scale(1); } 20% { transform: scale(1.18); } 40% { transform: scale(1); } }
+    @media (prefers-reduced-motion: reduce) { .flow, .pulse { animation: none; } }
   ]]></style>
 </defs>
 
-<rect width="445" height="275" fill="url(#bg)"/>
 <g clip-path="url(#card)">
-  <rect width="445" height="275" fill="url(#grid)"/>
-  <rect width="445" height="275" fill="url(#gl)"/>
-</g>
-<rect x="6" y="6" width="433" height="263" rx="16" fill="none" stroke="#E1D5F0"/>
-<g stroke="#7C3AED" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-opacity=".9">
-  <path d="M18 40V28a4 4 0 0 1 4-4h12"/>
-  <path d="M427 40V28a4 4 0 0 0-4-4h-12"/>
-  <path d="M18 235v12a4 4 0 0 0 4 4h12"/>
-  <path d="M427 235v12a4 4 0 0 0-4 4h-12"/>
-</g>
+  <rect width="445" height="285" fill="url(#bg)"/>
+  <rect width="445" height="285" fill="url(#gl)"/>
+  <rect width="445" height="285" fill="url(#dots)"/>
 
-<!-- top bar -->
-<g class="mono" font-size="11">
-  <circle cx="32" cy="40" r="4" fill="#8C9DB8"/>
-  <text x="44" y="44" fill="#5B6B86" font-weight="bold" letter-spacing="1.5">SHIPPED</text>
-  <text x="413" y="44" text-anchor="end" fill="#8C9DB8" letter-spacing=".5">offline</text>
-</g>
-
-<!-- name + copy -->
-<text x="32" y="64" class="mono" font-size="11" letter-spacing="3" fill="#9333EA">FULL-STACK · SOCIAL</text>
-<text x="30" y="118" class="nmk" fill="url(#nm)">PawPals</text>
-<text x="32" y="142" class="sans" font-size="15" font-weight="600" fill="#3B2A57">A social network for dog owners</text>
-<text x="32" y="163" class="sans" font-size="12.5" fill="#6B5B86">Profiles · posts · follows · playdates</text>
-
-<!-- social graph motif -->
-<g transform="translate(0 4)">
-  <g stroke="#9333EA">
-    <path class="e1" d="M250 196 L312 178"/>
-    <path class="e2" d="M312 178 L372 196"/>
-    <path class="e3" d="M250 196 L318 210"/>
-    <path class="e4" d="M318 210 L372 196"/>
+  <!-- HUD Corner Brackets -->
+  <g stroke="#C084FC" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-opacity=".8">
+    <path d="M16 36V22a4 4 0 0 1 4-4h14"/>
+    <path d="M411 18h14a4 4 0 0 1 4 4v14"/>
+    <path d="M429 249v14a4 4 0 0 1-4 4h-14"/>
+    <path d="M34 267H20a4 4 0 0 1-4-4v-14"/>
   </g>
-  <circle cx="250" cy="196" r="11" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.4"/>
-  <circle cx="372" cy="196" r="11" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.4"/>
-  <circle cx="318" cy="210" r="8" fill="#FFFFFF" stroke="#A855F7" stroke-width="1.2"/>
-  <circle cx="312" cy="178" r="7" fill="#FFFFFF" stroke="#A855F7" stroke-width="1.2"/>
-  <path class="heart" d="M311 192c-9-6-16-12-16-20 0-6 7-10 12-5 1 1 3 3 4 4 1-1 3-3 4-4 5-5 12-1 12 5 0 8-7 14-16 20z" fill="#EC4899" filter="url(#gw)"/>
-  <path class="heart" d="M311 192c-9-6-16-12-16-20 0-6 7-10 12-5 1 1 3 3 4 4 1-1 3-3 4-4 5-5 12-1 12 5 0 8-7 14-16 20z" fill="#EC4899"/>
-</g>
 
-<!-- tech -->
-<text x="32" y="244" class="mono" font-size="11" fill="#5B4A78">React<tspan fill="#C6B4DE"> · </tspan>Spring Boot<tspan fill="#C6B4DE"> · </tspan>MySQL<tspan fill="#C6B4DE"> · </tspan>JWT<tspan fill="#C6B4DE"> · </tspan>Railway<tspan fill="#C6B4DE"> · </tspan>Vercel</text>
+  <!-- Top Bar -->
+  <g class="mono" font-size="10.5">
+    <circle cx="30" cy="34" r="3.5" fill="#C084FC"/>
+    <text x="42" y="38" fill="#E9D5FF" font-weight="700" letter-spacing="1.5">SHIPPED · OPEN SOURCE</text>
+    <rect x="358" y="23" width="58" height="20" rx="10" fill="#1E293B" stroke="#475569"/>
+    <text x="387" y="36.5" text-anchor="middle" fill="#94A3B8" font-size="10">offline</text>
+  </g>
+
+  <!-- Identity -->
+  <text x="28" y="64" class="mono" font-size="10.5" letter-spacing="2.2" fill="#F472B6">◢ FULL-STACK · RELATIONAL MODELING</text>
+  <text x="26" y="114" class="nmk" fill="url(#nm)">PawPals</text>
+  <text x="28" y="138" class="sans" font-size="15" font-weight="700" fill="#F8FAFC">A social network for dog owners</text>
+  <text x="28" y="158" class="mono" font-size="10.5" fill="#94A3B8">profiles · posts · follows · reactions · uploads · playdates</text>
+
+  <!-- Relational Graph & Concurrency HUD -->
+  <g transform="translate(28 174)">
+    <rect width="389" height="52" rx="10" fill="#0B132B" fill-opacity=".85" stroke="#1E293B"/>
+    <!-- Graph Edges -->
+    <g stroke="#6B21A8" stroke-width="1.5" fill="none">
+      <path d="M36 26 C85 10, 130 10, 180 26"/>
+      <path d="M36 26 C85 42, 130 42, 180 26"/>
+      <path d="M180 26 C235 12, 290 12, 348 26"/>
+      <path class="flow" d="M36 26 C85 10, 130 10, 180 26" stroke="#EC4899" stroke-width="2" filter="url(#gw)"/>
+      <path class="flow" d="M180 26 C235 12, 290 12, 348 26" stroke="#A855F7" stroke-width="2" filter="url(#gw)"/>
+    </g>
+    <!-- Nodes -->
+    <circle cx="36" cy="26" r="9" fill="#131C38" stroke="#A855F7" stroke-width="1.6"/>
+    <circle cx="36" cy="26" r="3" fill="#E9D5FF"/>
+
+    <circle class="pulse" cx="180" cy="26" r="11" fill="#131C38" stroke="#EC4899" stroke-width="1.8" filter="url(#gw)"/>
+    <circle cx="180" cy="26" r="4" fill="#F472B6"/>
+
+    <circle cx="348" cy="26" r="9" fill="#131C38" stroke="#38BDF8" stroke-width="1.6"/>
+    <circle cx="348" cy="26" r="3" fill="#7DD3FC"/>
+
+    <text x="64" y="30" class="mono" font-size="9.5" fill="#CBD5E1">auth · ownership</text>
+    <text x="206" y="30" class="mono" font-size="9.5" fill="#CBD5E1">concurrent writes · pagination</text>
+  </g>
+
+  <!-- Tech Stack Strip -->
+  <text x="28" y="252" class="mono" font-size="10.5" font-weight="600" fill="#CBD5E1">
+    <tspan fill="#7DD3FC">React</tspan> · <tspan fill="#7DD3FC">Spring Boot</tspan> · <tspan fill="#C084FC">MySQL</tspan> · <tspan fill="#F472B6">JWT</tspan> · Railway · Vercel
+  </text>
+</g>
+<rect x="1" y="1" width="443" height="283" rx="17" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
 </svg>
