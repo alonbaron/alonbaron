@@ -1,6 +1,6 @@
 <svg width="900" height="430" viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">claude-skills — six Claude Code skills and a build loop, measured with and without the plugin</title>
-<desc id="d">Light-mode bento showcase for claude-skills (alon-skills v3.2.2 and workflow-watch 0.4.1, MIT). Top: frosted glass identity card, 3D sapphire-porcelain core sculpture, and 19/19 passing evals KPI card. Middle: five vertical uplift cards comparing scores with and without the plugin on Fable 5.1. Bottom: full-width command and build-loop strip.</desc>
+<desc id="d">Light-mode bento showcase for claude-skills (alon-skills v3.2.2 and workflow-watch 0.4.2, MIT). Top: frosted glass identity card, 3D sapphire-porcelain core sculpture, and 19/19 passing evals KPI card. Middle: five vertical uplift cards comparing scores with and without the plugin on Fable 5.1. Bottom: full-width command and build-loop strip.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="900" y2="430" gradientUnits="userSpaceOnUse">
     <stop offset="0" stop-color="#F6F7FB"/>
@@ -55,7 +55,7 @@
 
     <text x="20" y="68" class="sans" font-size="36" font-weight="900" letter-spacing="-1" fill="#0E1024">alon-skills <tspan font-size="18" font-weight="700" fill="#125190">v3.2.2</tspan></text>
     <text x="20" y="92" class="sans" font-size="13" font-weight="700" fill="#0E1024">6 skills + build loop, <tspan fill="#125190">measured with &amp; without plugin.</tspan></text>
-    <text x="20" y="111" class="sans" font-size="11.5" fill="#545A75">+ <tspan font-weight="700" fill="#0E1024">workflow-watch 0.4.1</tspan> tracker · CLI &amp; VS Code · macOS &amp; Windows</text>
+    <text x="20" y="111" class="sans" font-size="11.5" fill="#545A75">+ <tspan font-weight="700" fill="#0E1024">workflow-watch 0.4.2</tspan> tracker · CLI &amp; VS Code · macOS &amp; Windows</text>
   </g>
 
   <!-- TOP RIGHT: KPI Summary Glass Card -->

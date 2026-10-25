@@ -32,11 +32,11 @@
   <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="100%" alt="alon-skills card: six Claude Code skills and a build loop, one selected eval case per skill, scored with and without the plugin"></a>
 </p>
 
-**[claude-skills](https://github.com/alonbaron/claude-skills)** is a Claude Code plugin marketplace (MIT) with two plugins. **alon-skills** packages how I build software into six skills and one workflow, measured with and without the plugin. **workflow-watch 0.4.1** is a live tracker in a side pane beside the chat. Both work in the Claude Code CLI and the VS Code extension, tested on macOS and Windows.
+**[claude-skills](https://github.com/alonbaron/claude-skills)** is a Claude Code plugin marketplace (MIT) with two plugins. **alon-skills** packages how I build software into six skills and one workflow, measured with and without the plugin. **workflow-watch 0.4.2** is a live tracker in a side pane beside the chat. Both work in the Claude Code CLI and the VS Code extension, tested on macOS and Windows.
 
 - **Six skills.** **architect** writes the design docs before the code. **review-swarm** runs six parallel specialist reviewers, then verifiers that try to refute each finding, and returns a ranked `file:line` report. **ask-the-council** seats advisors who are made to disagree, then commits to one recommendation with the tradeoff named. **prompt-generator** turns a vague ask into a rigorous agent prompt, and **up-to-date** runs a read-only repo preflight before work starts. **ponytail** keeps solutions minimal; it's vendored from [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (MIT). Each skill fires on the shape of the task and has a written boundary for when to stay quiet.
 - **Build loop.** `/alon-skills:build-loop` works through a `TODO_WORKFLOW.md` one row at a time without supervision: plan → spec → build → independent review lenses → fix → close. Every stage is a fresh subagent on the model tier that fits the job, and state lives in the repo, not the chat.
-- **workflow-watch 0.4.1.** A separate plugin that follows the session live in a side pane beside the chat: turns, skills fired, subagents, commits and workflow stages.
+- **workflow-watch 0.4.2.** A separate plugin that follows the session live in a side pane beside the chat: turns, skills fired, subagents, commits and workflow stages.
 - **Evals.** 19 behavioral cases in a `claude plugin eval` suite, each run with and without the plugin. All 19 pass at the 0.7 threshold on Fable 5.1. Across 120 trigger prompts, each skill fired on 75 to 100% of the runs meant for it and never on the ones meant for another skill.
 
 | Eval case | With the plugin | Without |
