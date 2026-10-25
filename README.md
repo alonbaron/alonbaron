@@ -1,21 +1,22 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Alon Baron — Software Developer · CS student · heading toward DevOps" width="900">
+  <img src="./assets/hero.svg" alt="Alon Baron — Software Developer · CS student · heading toward DevOps" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.2.2" src="https://img.shields.io/badge/alon--skills-v3.2.2-7C3AED?style=flat-square&labelColor=0F1E33"></a>&nbsp;
-  <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 19/19 passing" src="https://img.shields.io/badge/evals-19%2F19_passing-059669?style=flat-square&labelColor=0F1E33"></a>&nbsp;
-  <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-C026D3?style=flat-square&labelColor=0F1E33"></a>&nbsp;
-  <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-4F46E5?style=flat-square&labelColor=0F1E33&logo=github&logoColor=white"></a>&nbsp;
-  <a href="https://www.linkedin.com/in/alonbaron/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-alonbaron-0A66C2?style=flat-square&labelColor=0F1E33&logo=linkedin&logoColor=white"></a>&nbsp;
-  <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-059669?style=flat-square&labelColor=0F1E33&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.2.2" src="https://img.shields.io/badge/alon--skills-v3.2.2-125190?style=flat-square&labelColor=0E1024"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 19/19 passing" src="https://img.shields.io/badge/evals-19%2F19_passing-067647?style=flat-square&labelColor=0E1024"></a>&nbsp;
+  <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-4174A6?style=flat-square&labelColor=0E1024"></a>&nbsp;
+  <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-125190?style=flat-square&labelColor=0E1024&logo=github&logoColor=white"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/alonbaron/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-alonbaron-0A66C2?style=flat-square&labelColor=0E1024&logo=linkedin&logoColor=white"></a>&nbsp;
+  <a href="https://x.com/alonbarondev"><img alt="X" src="https://img.shields.io/badge/X-alonbarondev-000000?style=flat-square&labelColor=0E1024&logo=x&logoColor=white"></a>&nbsp;
+  <a href="mailto:alonbaron123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-say_hi-067647?style=flat-square&labelColor=0E1024&logo=gmail&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <img alt="Role" src="https://img.shields.io/badge/Software_Developer-CS_student_%C2%B7_heading_toward_DevOps-334A66?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Freelance" src="https://img.shields.io/badge/freelance-software_dev-6D28D9?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Products shipped" src="https://img.shields.io/badge/products_shipped-3-0E7490?style=flat-square&labelColor=0F1E33">&nbsp;
-  <img alt="Open source" src="https://img.shields.io/badge/open_source-MIT-059669?style=flat-square&labelColor=0F1E33">
+  <img alt="Role" src="https://img.shields.io/badge/Software_Developer-CS_student_%C2%B7_heading_toward_DevOps-125190?style=flat-square&labelColor=0E1024">&nbsp;
+  <a href="https://medusadynamics.com"><img alt="Medusa Dynamics — medusadynamics.com" src="https://img.shields.io/badge/Medusa_Dynamics-medusadynamics.com-125190?style=flat-square&labelColor=0E1024"></a>&nbsp;
+  <img alt="Shipped — production & client" src="https://img.shields.io/badge/shipped-production_%26_client-4174A6?style=flat-square&labelColor=0E1024">&nbsp;
+  <img alt="Open source" src="https://img.shields.io/badge/open_source-MIT-067647?style=flat-square&labelColor=0E1024">
 </p>
 
 <p align="center">
@@ -25,20 +26,21 @@
 
 ---
 
-## ◢ alon-skills — Claude Code skills, measured
+## ◢ claude-skills — two Claude Code plugins
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="900" alt="alon-skills card: six Claude Code skills and a build loop, one selected eval case per skill, scored with and without the plugin"></a>
+  <a href="https://github.com/alonbaron/claude-skills"><img src="./assets/alon-skills-card.svg" width="100%" alt="alon-skills card: six Claude Code skills and a build loop, one selected eval case per skill, scored with and without the plugin"></a>
 </p>
 
-**[alon-skills](https://github.com/alonbaron/claude-skills)** is a Claude Code plugin that packages how I build software into six skills and one workflow, and measures them instead of asking you to trust them.
+**[claude-skills](https://github.com/alonbaron/claude-skills)** is a Claude Code plugin marketplace (MIT) with two plugins. **alon-skills** packages how I build software into six skills and one workflow, measured with and without the plugin. **workflow-watch 0.4.1** is a live tracker in a side pane beside the chat. Both work in the Claude Code CLI and the VS Code extension, tested on macOS and Windows.
 
 - **Six skills.** **architect** writes the design docs before the code. **review-swarm** runs six parallel specialist reviewers, then verifiers that try to refute each finding, and returns a ranked `file:line` report. **ask-the-council** seats advisors who are made to disagree, then commits to one recommendation with the tradeoff named. **prompt-generator** turns a vague ask into a rigorous agent prompt, and **up-to-date** runs a read-only repo preflight before work starts. **ponytail** keeps solutions minimal; it's vendored from [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (MIT). Each skill fires on the shape of the task and has a written boundary for when to stay quiet.
-- **Build loop.** `/alon-skills:build-loop` works through a `TODO_WORKFLOW.md` one row at a time without supervision: plan → spec → build → independent review lenses → fix → close. Every stage is a fresh subagent on the model tier that fits the job, and state lives in the repo, not the chat. Measured once on a throwaway repo, it built, reviewed and closed one row in about four minutes for $1.75.
-- **Evals.** A `claude plugin eval` suite runs every case with and without the plugin. All 19 cases pass at the 0.7 threshold, and every release links the CI runs behind its numbers. Across 120 trigger prompts, each skill fired on 75–100% of the runs meant for it and never on the others.
+- **Build loop.** `/alon-skills:build-loop` works through a `TODO_WORKFLOW.md` one row at a time without supervision: plan → spec → build → independent review lenses → fix → close. Every stage is a fresh subagent on the model tier that fits the job, and state lives in the repo, not the chat.
+- **workflow-watch 0.4.1.** A separate plugin that follows the session live in a side pane beside the chat: turns, skills fired, subagents, commits and workflow stages.
+- **Evals.** 19 behavioral cases in a `claude plugin eval` suite, each run with and without the plugin. All 19 pass at the 0.7 threshold on Fable 5.1. Across 120 trigger prompts, each skill fired on 75 to 100% of the runs meant for it and never on the ones meant for another skill.
 
 | Eval case | With the plugin | Without |
-|---|:---:|:---:|
+|:---|:---:|:---:|
 | **review-swarm** on a real diff with an N+1 query | **1.00** | 0.40 |
 | **ponytail (vendored)** asked for a pluggable cache with one caller | **0.90** | 0.50 |
 | **ask-the-council** reaching a verdict and handing off the build | **1.00** | 0.33 |
@@ -50,6 +52,7 @@
 ```text
 /plugin marketplace add alonbaron/claude-skills
 /plugin install alon-skills@alonbaron
+/plugin install workflow-watch@alonbaron
 ```
 `Claude Code` · `agentic workflows` · `evals` · `MIT` · **[Source & releases →](https://github.com/alonbaron/claude-skills)**
 
@@ -93,19 +96,19 @@ I lead AI adoption across the company: hands-on enablement sessions with employe
 I led the student team across a live hospital's technology stack — technical support, systems, and software. Built a **shift-scheduling automation** that turned a manual rostering chore into a repeatable system for the team — a small piece of software that quietly gave people their time back.
 <br>`automation` · `scheduling` · `systems` · `IT` · `healthcare`
 
-**Freelance Software Developer** · Jan 2025–present<br>
-I build and ship production software for real clients end to end: design, build, deploy, hand over. That includes **TenderTrack**, the tender tracker under [Shipped](#-shipped) that a paying customer runs on. Most recent site — **[Gal Baron Insurance](https://www.galb-ins.co.il)**, a Hebrew/RTL site for an independent agent with accessible service discovery, a lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting *(source private — client work)*.
-<br>`Vite` · `EmailJS` · `WhatsApp` · `AWS Amplify` · `SEO / RTL`
+**[Medusa Dynamics](https://medusadynamics.com)** — *Founder &amp; Software Developer* · Jan 2025–present<br>
+My software house where I build and ship production websites, custom systems, and AI automations for real clients end to end: design, build, deploy, hand over.
+- **Systems &amp; custom builds:** **TenderTrack** (the grounded AI tender tracker under [Shipped](#-shipped) that a paying customer runs on) and a **luxury jewelry configurator &amp; virtual try-on** (`Next.js` · `TypeScript` · `Python` · `FastAPI` — first phase delivered; client paused).
+- **Live client sites:** **[Gal Baron Insurance](https://www.galb-ins.co.il)** (Hebrew/RTL insurance agency site with accessible service discovery, lead funnel, EmailJS contact flows, WhatsApp integration, SEO metadata, and AWS Amplify hosting) and **[Karolina Clinic](https://www.karolinaclinic.co.il)** (Hebrew/RTL clinic brand site and booking funnel) — *(client work, source private)*.
 
-Also a **luxury jewelry configurator &amp; virtual try-on**: the first phase is delivered, and the client has paused the project. *(client work)*
-<br>`Next.js` · `TypeScript` · `Python` · `FastAPI`
+`Next.js 16` · `React 19` · `TypeScript` · `Tailwind v4` · `GSAP` · `next-intl` · `AWS SES` · `Vite` · `AWS Amplify` · `SEO / RTL`
 
 ---
 
 ## ◢ How I build
 
 <p align="center">
-  <img src="./assets/architecture.svg" alt="Alon's build loop: model, enforce, observe, evolve" width="900">
+  <img src="./assets/architecture.svg" alt="Alon's build loop: model, enforce, observe, evolve" width="100%">
 </p>
 
 - **Model first.** Start with data, flows, and invariants — not framework choices.

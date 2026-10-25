@@ -1,78 +1,64 @@
 <svg width="445" height="275" viewBox="0 0 445 275" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
 <title id="t">NUMRA — real-time classroom math racing</title>
-<desc id="d">A blueprint-style product card for NUMRA, marked shipped and currently offline. NUMRA is a Hebrew-first, server-authoritative real-time classroom math racing platform built with React 19, Spring Boot 4, PostgreSQL, SSE and AWS.</desc>
+<desc id="d">Light-mode product card for NUMRA, marked shipped and offline. NUMRA is a Hebrew-first, server-authoritative real-time classroom math racing platform built with React 19, Spring Boot 4, PostgreSQL, SSE and AWS.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="445" y2="275" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#F6F9FD"/><stop offset="1" stop-color="#E9F0F9"/>
+    <stop offset="0" stop-color="#F6F7FB"/>
+    <stop offset="1" stop-color="#E9EFF8"/>
   </linearGradient>
-  <linearGradient id="nm" x1="30" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#0891B2"/><stop offset=".55" stop-color="#0EA5E9"/><stop offset="1" stop-color="#4F46E5"/>
-  </linearGradient>
-  <linearGradient id="trk" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#0891B2" stop-opacity="0"/><stop offset=".5" stop-color="#0891B2" stop-opacity=".7"/><stop offset="1" stop-color="#D97706" stop-opacity=".8"/>
-  </linearGradient>
-  <radialGradient id="gl" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 30) scale(220 180)">
-    <stop stop-color="#0891B2" stop-opacity=".12"/><stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+  <radialGradient id="gl" cx="360" cy="50" r="220" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#8DABCA" stop-opacity=".40"/>
+    <stop offset="1" stop-color="#8DABCA" stop-opacity="0"/>
   </radialGradient>
-  <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
-    <path d="M26 0H0V26" fill="none" stroke="#C4D3E6" stroke-width=".6" stroke-opacity=".5"/>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity=".90"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity=".75"/>
+  </linearGradient>
+  <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#0E1024" fill-opacity=".07"/>
   </pattern>
-  <filter id="gw" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.2"/></filter>
-  <clipPath id="card"><rect x="6" y="6" width="433" height="263" rx="16"/></clipPath>
+  <clipPath id="clip"><rect width="445" height="275" rx="20"/></clipPath>
   <style><![CDATA[
-    .mono{font-family:ui-monospace,'Cascadia Code','Segoe UI Mono',Consolas,monospace}
-    .sans{font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif}
-    .nmk{font-family:'Segoe UI',system-ui,Roboto,Arial,sans-serif;font-weight:800;font-size:46px;letter-spacing:1.5px}
-    .dot{animation:p 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-    .ring{animation:r 1.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
-    .r1{animation:race 3.4s cubic-bezier(.45,0,.55,1) infinite}
-    .r2{animation:race 3.4s cubic-bezier(.45,0,.55,1) .9s infinite}
-    .r3{animation:race 3.4s cubic-bezier(.45,0,.55,1) 1.7s infinite}
-    @keyframes p{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.7)}}
-    @keyframes r{0%{opacity:.55;transform:scale(.7)}75%,100%{opacity:0;transform:scale(2.8)}}
-    @keyframes race{0%{transform:translateX(0);opacity:0}10%{opacity:1}88%{opacity:1}100%{transform:translateX(330px);opacity:0}}
-    @media (prefers-reduced-motion:reduce){.dot,.ring,.r1,.r2,.r3{animation:none}.ring{opacity:0}.r1,.r2,.r3{opacity:1}}
+    .sans { font-family: 'Manrope', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, monospace; }
+    .r1 { animation: race 3.2s cubic-bezier(.45,0,.55,1) infinite; }
+    .r2 { animation: race 3.2s cubic-bezier(.45,0,.55,1) .8s infinite; }
+    @keyframes race { 0% { transform: translateX(0); opacity: 0; } 12% { opacity: 1; } 88% { opacity: 1; } 100% { transform: translateX(310px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .r1, .r2 { animation: none; opacity: 1; } }
   ]]></style>
 </defs>
 
-<rect width="445" height="275" fill="url(#bg)"/>
-<g clip-path="url(#card)">
-  <rect width="445" height="275" fill="url(#grid)"/>
+<g clip-path="url(#clip)">
+  <rect width="445" height="275" fill="url(#bg)"/>
   <rect width="445" height="275" fill="url(#gl)"/>
-</g>
-<rect x="6" y="6" width="433" height="263" rx="16" fill="none" stroke="#D2DFEE"/>
-<g stroke="#0891B2" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-opacity=".9">
-  <path d="M18 40V28a4 4 0 0 1 4-4h12"/>
-  <path d="M427 40V28a4 4 0 0 0-4-4h-12"/>
-  <path d="M18 235v12a4 4 0 0 0 4 4h12"/>
-  <path d="M427 235v12a4 4 0 0 0-4 4h-12"/>
-</g>
+  <rect width="445" height="275" fill="url(#dots)"/>
 
-<!-- top bar -->
-<g class="mono" font-size="11">
-  <circle cx="32" cy="40" r="4" fill="#8C9DB8"/>
-  <text x="44" y="44" fill="#5B6B86" font-weight="bold" letter-spacing="1.5">SHIPPED</text>
-  <text x="413" y="44" text-anchor="end" fill="#8C9DB8" letter-spacing=".5">offline</text>
+  <g transform="translate(24 22)">
+    <rect width="176" height="24" rx="12" fill="#FFFFFF" stroke="#8DABCA" stroke-opacity=".5"/>
+    <circle cx="14" cy="12" r="3.5" fill="#125190"/>
+    <text x="25" y="16" class="mono" font-size="10" font-weight="700" fill="#125190">REAL-TIME · MULTIPLAYER</text>
+
+    <rect x="332" y="0" width="65" height="24" rx="12" fill="#EEF2F8" stroke="#CBD5E1"/>
+    <text x="364.5" y="15.5" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#545A75">offline</text>
+
+    <text x="0" y="68" class="sans" font-size="38" font-weight="900" letter-spacing="-1" fill="#0E1024">NUMRA</text>
+    <text x="0" y="92" class="sans" font-size="14.5" font-weight="700" fill="#125190">Real-time classroom math racing</text>
+    <text x="0" y="112" class="sans" font-size="12.5" fill="#545A75">Server-authoritative engine · Hebrew-first</text>
+
+    <!-- Frosted Glass Telemetry Track Box -->
+    <g transform="translate(0 126)">
+      <rect width="397" height="62" rx="14" fill="url(#glass)" stroke="#FFFFFF" stroke-width="1.5"/>
+      <rect x=".75" y=".75" width="395.5" height="60.5" rx="13.25" fill="none" stroke="#125190" stroke-opacity=".12"/>
+      <text x="16" y="20" class="mono" font-size="9.5" font-weight="700" fill="#545A75">SERVER-AUTHORITATIVE STATE · SCORING · CATCH-UP · RANKINGS</text>
+      <line x1="16" y1="34" x2="365" y2="34" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+      <line x1="16" y1="46" x2="365" y2="46" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 6"/>
+      <g transform="translate(20 34)"><g class="r1"><circle r="4.5" fill="#125190"/></g></g>
+      <g transform="translate(20 46)"><g class="r2"><circle r="4" fill="#4174A6"/></g></g>
+      <rect x="372" y="28" width="6" height="24" rx="2" fill="#125190"/>
+    </g>
+
+    <text x="0" y="216" class="mono" font-size="11" font-weight="600" fill="#0E1024">React 19 <tspan fill="#8DABCA">·</tspan> Spring Boot 4 <tspan fill="#8DABCA">·</tspan> PostgreSQL <tspan fill="#8DABCA">·</tspan> SSE <tspan fill="#8DABCA">·</tspan> AWS</text>
+  </g>
 </g>
-
-<!-- name + copy -->
-<text x="32" y="64" class="mono" font-size="11" letter-spacing="3" fill="#0891B2">REAL-TIME · MULTIPLAYER</text>
-<text x="30" y="118" class="nmk" fill="url(#nm)">NUMRA</text>
-<text x="32" y="142" class="sans" font-size="15" font-weight="600" fill="#233A57">Real-time classroom math racing</text>
-<text x="32" y="163" class="sans" font-size="12.5" fill="#5B6B86">Server-authoritative engine · Hebrew-first</text>
-
-<!-- race motif -->
-<g>
-  <line x1="34" y1="196" x2="404" y2="196" stroke="#CBD9EA" stroke-width="3" stroke-linecap="round"/>
-  <line x1="34" y1="196" x2="404" y2="196" stroke="url(#trk)" stroke-width="1.6" stroke-dasharray="2 8" stroke-linecap="round"/>
-  <g transform="translate(404 188)"><rect x="-1" y="0" width="2" height="18" fill="#64748B"/>
-    <rect x="1" y="0" width="5" height="4" fill="#334155"/><rect x="6" y="4" width="5" height="4" fill="#334155"/>
-    <rect x="1" y="8" width="5" height="4" fill="#334155"/><rect x="1" y="4" width="5" height="4" fill="#CBD5E1"/><rect x="6" y="0" width="5" height="4" fill="#CBD5E1"/></g>
-  <g transform="translate(40 196)"><g class="r1"><path d="M-6 -5L4 -5L9 0L4 5L-6 5L-1 0Z" fill="#0891B2" filter="url(#gw)"/><path d="M-6 -5L4 -5L9 0L4 5L-6 5L-1 0Z" fill="#0891B2"/></g></g>
-  <g transform="translate(40 196)"><g class="r2"><path d="M-5 -4L3 -4L7 0L3 4L-5 4L-1 0Z" fill="#D97706"/></g></g>
-  <g transform="translate(40 196)"><g class="r3"><path d="M-4 -3L2 -3L6 0L2 3L-4 3L-1 0Z" fill="#4F46E5"/></g></g>
-</g>
-
-<!-- tech -->
-<text x="32" y="244" class="mono" font-size="11" fill="#4A5B78">React 19<tspan fill="#AFC3DD"> · </tspan>Spring Boot 4<tspan fill="#AFC3DD"> · </tspan>PostgreSQL<tspan fill="#AFC3DD"> · </tspan>SSE<tspan fill="#AFC3DD"> · </tspan>AWS</text>
+<rect x=".75" y=".75" width="443.5" height="273.5" rx="19.25" fill="none" stroke="#D5E0F0" stroke-width="1.5"/>
 </svg>
