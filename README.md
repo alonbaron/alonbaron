@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.2.2" src="https://img.shields.io/badge/alon--skills-v3.2.2-125190?style=flat-square&labelColor=0E1024"></a>&nbsp;
+  <a href="https://github.com/alonbaron/claude-skills"><img alt="alon-skills — v3.2.3" src="https://img.shields.io/badge/alon--skills-v3.2.3-125190?style=flat-square&labelColor=0E1024"></a>&nbsp;
   <a href="https://github.com/alonbaron/claude-skills#-evals"><img alt="alon-skills evals: 19/19 passing" src="https://img.shields.io/badge/evals-19%2F19_passing-067647?style=flat-square&labelColor=0E1024"></a>&nbsp;
   <a href="https://github.com/alonbaron/dogsocial"><img alt="PawPals — source" src="https://img.shields.io/badge/PawPals-source-4174A6?style=flat-square&labelColor=0E1024"></a>&nbsp;
   <a href="https://github.com/alonbaron"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-alonbaron-125190?style=flat-square&labelColor=0E1024&logo=github&logoColor=white"></a>&nbsp;
@@ -37,15 +37,15 @@
 - **Six skills.** **architect** writes the design docs before the code. **review-swarm** runs six parallel specialist reviewers, then verifiers that try to refute each finding, and returns a ranked `file:line` report. **ask-the-council** seats advisors who are made to disagree, then commits to one recommendation with the tradeoff named. **prompt-generator** turns a vague ask into a rigorous agent prompt, and **up-to-date** runs a read-only repo preflight before work starts. **ponytail** keeps solutions minimal; it's vendored from [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (MIT). Each skill fires on the shape of the task and has a written boundary for when to stay quiet.
 - **Build loop.** `/alon-skills:build-loop` works through a `TODO_WORKFLOW.md` one row at a time without supervision: plan → spec → build → independent review lenses → fix → close. Every stage is a fresh subagent on the model tier that fits the job, and state lives in the repo, not the chat.
 - **workflow-watch 0.11.** A separate plugin that follows the session live in a side pane beside the chat: turns, skills fired, subagents, commits and workflow stages, plus an oversight console with the agent's plan, the decisions left to you, test runs, files edited, review outcomes and usage meters.
-- **Evals.** 19 behavioral cases in a `claude plugin eval` suite, each run with and without the plugin. All 19 pass at the 0.7 threshold on Fable 5.1. Across 120 trigger prompts, each skill fired on 75 to 100% of the runs meant for it and never on the ones meant for another skill.
+- **Evals.** 19 behavioral cases in a `claude plugin eval` suite, each run with and without the plugin. All 19 pass at the 0.7 threshold on Fable 5.2. Across 120 trigger prompts (run on Fable 5.1), each skill fired on 75 to 100% of the runs meant for it and never on the ones meant for another skill.
 
 | Eval case | With the plugin | Without |
 |:---|:---:|:---:|
 | **review-swarm** on a real diff with an N+1 query | **1.00** | 0.40 |
-| **ponytail (vendored)** asked for a pluggable cache with one caller | **0.90** | 0.50 |
+| **ponytail (vendored)** asked for a pluggable cache with one caller | **1.00** | 0.20 |
 | **ask-the-council** reaching a verdict and handing off the build | **1.00** | 0.33 |
-| **architect** speccing a feature from scratch | **1.00** | 0.67 |
-| **up-to-date** on a branch that was never pushed | **0.88** | 0.62 |
+| **architect** speccing a feature from scratch | **1.00** | 0.40 |
+| **up-to-date** on a branch that was never pushed | **1.00** | 0.75 |
 
 <sub>One selected eval case per skill — the cases with the clearest uplift. Some cases score the same without the plugin because they test when a skill should stay quiet; the [full table](https://github.com/alonbaron/claude-skills#-evals) has all 19.</sub>
 
